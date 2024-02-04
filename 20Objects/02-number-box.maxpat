@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 36.0, 84.0, 1133.0, 1273.0 ],
+		"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 527.0, 828.0, 150.0, 47.0 ],
+					"text" : "add something to chain by holding shift and then placing object"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-155",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 944.0, 150.0, 33.0 ],
+					"patching_rect" : [ 260.0, 944.0, 151.0, 33.0 ],
 					"text" : "clicking button will print 20 then 0. then 0"
 				}
 
@@ -118,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 260.0, 830.0, 150.0, 33.0 ],
-					"text" : "only execute is integer or float"
+					"text" : "prints integer then the float"
 				}
 
 			}
@@ -310,7 +322,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 556.0, 150.0, 33.0 ],
+					"patching_rect" : [ 99.0, 556.0, 153.0, 33.0 ],
 					"text" : "in attributes can change to float"
 				}
 
@@ -839,7 +851,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 223.0, 81.0, 47.0 ],
+					"patching_rect" : [ 156.0, 223.0, 83.0, 47.0 ],
 					"text" : "most recently changed is displayed"
 				}
 
