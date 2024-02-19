@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 52.0, 84.0, 1483.0, 1267.0 ],
+		"rect" : [ 42.0, 85.0, 2072.0, 1266.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,1265 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-70",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 35.0, 431.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 59.0, 417.5, 86.0, 47.0 ],
+					"text" : "Press toggle button to start song"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-463",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 82.0, 915.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 363.625, 422.625, 36.75, 36.75 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-126",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 72.0, 486.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 253.625, 422.625, 36.75, 36.75 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 84.0, 24.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 153.0, 423.0, 36.0, 36.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-652",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 2431.5, 1396.0, 610.0, 411.0 ],
+					"pic" : "pikachu.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 433.0, 336.5, 249.0, 138.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-651",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2449.0, 1349.0, 92.0, 22.0 ],
+					"text" : "pic pikachu.png"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-647",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2235.0, 1340.0, 95.0, 22.0 ],
+					"text" : "pic pokeball.png"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-645",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 2178.0, 1414.0, 180.0, 167.0 ],
+					"pic" : "pokeball.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 1524.0, 1034.5, 180.0, 167.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-634",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1988.0, 962.0, 218.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1384.0, 890.5, 134.0, 47.0 ],
+					"text" : "Frequency        Cutoff"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-613",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 885.0, 1640.0, 40.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1385.0, 944.5, 101.0, 101.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-144",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 849.5, 1700.5, 68.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1402.0, 1062.5, 77.0, 31.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-602",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 348.0, 1965.0, 40.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 252.0, 559.5, 55.5, 55.5 ],
+					"size" : 5.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-604",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1270.0, 2014.0, 40.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 252.0, 1065.5, 56.75, 56.75 ],
+					"size" : 5.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-256",
+					"maxclass" : "number",
+					"maximum" : 4,
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1250.5, 2069.0, 60.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 320.0, 1079.5, 39.5, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-30",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1259.0, 2211.0, 102.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 383.0, 1076.5, 155.0, 34.0 ],
+					"size" : 2.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"addpoints" : [ 0.0, 0.0, 0, 153.84615384615384, 0.842857142857143, 0, 615.384615384615358, 0.242857142857143, 0, 1000.0, 0.071428571428571, 0 ],
+					"classic_curve" : 1,
+					"id" : "obj-51",
+					"maxclass" : "function",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "", "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1212.0, 2447.0, 116.0, 95.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 807.0, 1012.5, 203.0, 121.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1105.0, 2461.0, 22.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 559.0, 1075.5, 189.5, 37.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-205",
+					"items" : [ "none", ",", "sine", ",", "triangle", ",", "saw", "tooth", ",", "rectangle" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1121.0, 2209.0, 100.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 80.0, 1069.5, 134.0, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-603",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 932.0, 2005.0, 40.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 252.0, 896.5, 55.5, 55.5 ],
+					"size" : 5.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-253",
+					"maxclass" : "number",
+					"maximum" : 4,
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 914.0, 2056.0, 60.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 325.0, 909.5, 38.0, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-39",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 932.0, 2211.0, 102.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 383.0, 907.5, 154.75, 33.5 ],
+					"size" : 2.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"addpoints" : [ 0.0, 0.0, 0, 163.461538461538453, 0.814285714285714, 0, 528.846153846153811, 0.4, 0, 1000.0, 0.085714285714286, 0 ],
+					"classic_curve" : 1,
+					"id" : "obj-52",
+					"maxclass" : "function",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "", "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 890.0, 2451.0, 116.0, 95.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 810.0, 842.5, 200.0, 124.5 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 769.0, 2473.0, 22.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 566.0, 902.5, 193.25, 37.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-211",
+					"items" : [ "none", ",", "sine", ",", "triangle", ",", "saw", "tooth", ",", "rectangle" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 801.0, 2209.0, 100.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 81.25, 902.5, 134.0, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-631",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1040.5, 122.5, 229.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 858.0, 1135.5, 79.5, 29.0 ],
+					"text" : "ASDR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-629",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 889.0, 40.5, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 621.0, 1026.5, 66.5, 29.0 ],
+					"text" : "Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-630",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1025.5, 107.5, 229.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 868.0, 968.5, 79.5, 29.0 ],
+					"text" : "ASDR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-627",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 874.0, 25.5, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 383.0, 1016.5, 128.5, 29.0 ],
+					"text" : "Pulse Width"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-628",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 874.0, 25.5, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 621.0, 845.5, 66.5, 29.0 ],
+					"text" : "Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-625",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1765.0, 28.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 252.0, 1019.5, 105.5, 29.0 ],
+					"text" : "Multiplier"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-626",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1765.0, 28.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 383.0, 849.5, 128.5, 29.0 ],
+					"text" : "Pulse Width"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-623",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1482.0, 20.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 76.0, 1019.5, 156.5, 29.0 ],
+					"text" : "Oscillator Type"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-624",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1467.0, 38.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 252.0, 849.5, 105.5, 29.0 ],
+					"text" : "Multiplier"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-41",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 622.0, 2211.0, 102.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 382.0, 736.5, 156.0, 40.0 ],
+					"size" : 2.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-622",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1179.0, 38.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 70.0, 849.5, 156.5, 29.0 ],
+					"text" : "Oscillator Type"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-620",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 874.0, 25.5, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 620.0, 685.5, 66.5, 29.0 ],
+					"text" : "Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-621",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1025.5, 107.5, 229.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 868.0, 797.5, 79.5, 29.0 ],
+					"text" : "ASDR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-619",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1765.0, 28.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 396.0, 685.5, 128.5, 29.0 ],
+					"text" : "Pulse Width"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-618",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1476.0, 38.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 257.0, 685.5, 105.5, 29.0 ],
+					"text" : "Multiplier"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-617",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1179.0, 38.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 70.0, 685.5, 156.5, 29.0 ],
+					"text" : "Oscillator Type"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-601",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 639.0, 2017.5, 40.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 251.0, 727.5, 58.0, 58.0 ],
+					"size" : 5.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-250",
+					"maxclass" : "number",
+					"maximum" : 4,
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 610.0, 2081.0, 60.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 321.0, 741.5, 38.0, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"addpoints" : [ 0.0, 0.0, 0, 125.0, 0.785714285714286, 0, 730.769230769230717, 0.728571428571429, 0, 980.769230769230717, 0.0, 0 ],
+					"classic_curve" : 1,
+					"id" : "obj-66",
+					"maxclass" : "function",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "", "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 577.0, 2443.0, 116.0, 95.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 806.0, 680.5, 204.0, 118.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 436.0, 2477.0, 22.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 557.0, 737.5, 193.25, 38.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-217",
+					"items" : [ "none", ",", "sine", ",", "triangle", ",", "saw", "tooth", ",", "rectangle" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 481.0, 2209.0, 100.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 81.0, 741.5, 134.0, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-616",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1973.0, 947.0, 218.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1211.0, 890.5, 105.0, 27.0 ],
+					"text" : "Resonance"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-614",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1072.0, 1728.0, 40.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1213.0, 944.5, 101.0, 101.0 ],
+					"size" : 1.1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"format" : 6,
+					"id" : "obj-142",
+					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1067.0, 1799.0, 72.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1225.0, 1062.5, 77.0, 31.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble_outlinecolor" : [ 0.749019607843137, 0.749019607843137, 0.749019607843137, 0.0 ],
+					"fontface" : 2,
+					"fontsize" : 30.0,
+					"id" : "obj-612",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2065.0, 1067.0, 215.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1230.0, 270.5, 277.0, 40.0 ],
+					"style" : "rnbodefault",
+					"suppressinlet" : 1,
+					"text" : "Graphs and Filters"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "spectroscope~",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1135.0, 1532.0, 300.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1098.0, 331.5, 514.0, 154.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"automatic" : 1,
+					"id" : "obj-136",
+					"maxclass" : "scope~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1281.0, 1670.0, 130.0, 130.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1098.0, 660.5, 512.0, 172.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
+					"fgcolor" : [ 1.0, 0.603922, 0.0, 1.0 ],
+					"id" : "obj-138",
+					"interval" : 50,
+					"logfreq" : 1,
+					"markercolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
+					"maxclass" : "spectroscope~",
+					"monochrome" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1135.0, 1781.0, 120.0, 80.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1098.0, 503.5, 514.0, 141.0 ],
+					"sonohicolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"sonolocolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
+					"sonomedcolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
+					"sonomedhicolor" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
+					"sonomedlocolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+					"sonomonofgcolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 269.127985455671194,
+					"bgcolor" : [ 0.796078431372549, 0.298039215686275, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 1.0, 0.125490196078431, 0.019607843137255, 1.0 ],
+					"id" : "obj-611",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2094.0, 28.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.0, 1002.5, 1002.5, 163.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 269.127985455671194,
+					"bgcolor" : [ 0.796078431372549, 0.298039215686275, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 1.0, 0.125490196078431, 0.019607843137255, 1.0 ],
+					"id" : "obj-610",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2079.0, 13.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.0, 835.5, 1002.5, 163.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 269.127985455671194,
+					"bgcolor" : [ 0.796078431372549, 0.298039215686275, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 1.0, 0.125490196078431, 0.019607843137255, 1.0 ],
+					"id" : "obj-605",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2109.0, 43.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1066.0, 246.5, 586.0, 919.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 269.127985455671194,
+					"bgcolor" : [ 0.796078431372549, 0.298039215686275, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 1.0, 0.125490196078431, 0.019607843137255, 1.0 ],
+					"id" : "obj-609",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2064.0, -2.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.0, 665.0, 1002.5, 163.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubblesize" : 100,
+					"id" : "obj-260",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 448.0, 1802.5, 166.0, 61.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 650.0, 338.5, 317.0, 110.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-30", "slider", "float", 0.983822047710419, 5, "obj-256", "number", "int", 2, 5, "obj-205", "umenu", "int", 3, 6, "obj-75", "gain~", "list", 73, 10.0, 5, "obj-142", "flonum", "float", 0.540000021457672, 5, "obj-144", "number", "int", 1263, 5, "obj-39", "slider", "float", 2.0, 5, "obj-253", "number", "int", 1, 5, "obj-211", "umenu", "int", 4, 6, "obj-77", "gain~", "list", 81, 10.0, 5, "obj-41", "slider", "float", 0.682002007961273, 5, "obj-250", "number", "int", 4, 5, "obj-217", "umenu", "int", 3, 6, "obj-79", "gain~", "list", 58, 10.0, 5, "obj-43", "slider", "float", 0.0, 5, "obj-248", "number", "int", 1, 5, "obj-226", "umenu", "int", 1, 6, "obj-81", "gain~", "list", 99, 10.0 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-30", "slider", "float", 0.0, 5, "obj-256", "number", "int", 2, 5, "obj-205", "umenu", "int", 3, 6, "obj-75", "gain~", "list", 72, 10.0, 5, "obj-142", "flonum", "float", 0.746999979019165, 5, "obj-144", "number", "int", 960, 5, "obj-39", "slider", "float", 0.0, 5, "obj-253", "number", "int", 1, 5, "obj-211", "umenu", "int", 3, 6, "obj-77", "gain~", "list", 113, 10.0, 5, "obj-41", "slider", "float", 0.682002007961273, 5, "obj-250", "number", "int", 2, 5, "obj-217", "umenu", "int", 1, 6, "obj-79", "gain~", "list", 103, 10.0, 5, "obj-43", "slider", "float", 0.0, 5, "obj-248", "number", "int", 4, 5, "obj-226", "umenu", "int", 4, 6, "obj-81", "gain~", "list", 77, 10.0 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-30", "slider", "float", 0.459049552679062, 5, "obj-256", "number", "int", 4, 5, "obj-205", "umenu", "int", 4, 6, "obj-75", "gain~", "list", 79, 10.0, 5, "obj-142", "flonum", "float", 0.540000021457672, 5, "obj-144", "number", "int", 1464, 5, "obj-39", "slider", "float", 0.0, 5, "obj-253", "number", "int", 3, 5, "obj-211", "umenu", "int", 3, 6, "obj-77", "gain~", "list", 84, 10.0, 5, "obj-41", "slider", "float", 1.39130437374115, 5, "obj-250", "number", "int", 2, 5, "obj-217", "umenu", "int", 2, 6, "obj-79", "gain~", "list", 19, 10.0, 5, "obj-43", "slider", "float", 0.0, 5, "obj-248", "number", "int", 4, 5, "obj-226", "umenu", "int", 1, 6, "obj-81", "gain~", "list", 71, 10.0 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble_outlinecolor" : [ 0.749019607843137, 0.749019607843137, 0.749019607843137, 0.0 ],
+					"fontface" : 2,
+					"fontsize" : 30.0,
+					"id" : "obj-600",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2050.0, 1052.0, 215.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 706.0, 268.5, 197.0, 40.0 ],
+					"style" : "rnbodefault",
+					"suppressinlet" : 1,
+					"text" : "Synth Presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 269.127985455671194,
+					"bgcolor" : [ 0.796078431372549, 0.298039215686275, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 1.0, 0.125490196078431, 0.019607843137255, 1.0 ],
+					"id" : "obj-599",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2094.0, 28.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 559.0, 246.5, 491.0, 227.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-597",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 638.0, 43.0, 196.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 339.0, 330.0, 86.0, 60.0 ],
+					"text" : "Once Upon a December"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-596",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 638.0, 43.0, 196.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 252.0, 348.0, 56.0, 24.0 ],
+					"text" : "Jolene"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-595",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 623.0, 28.0, 196.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 135.0, 339.0, 80.0, 42.0 ],
+					"text" : "Pokemon Theme"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble_outlinecolor" : [ 0.749019607843137, 0.749019607843137, 0.749019607843137, 0.0 ],
+					"fontface" : 2,
+					"fontsize" : 30.0,
+					"id" : "obj-593",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2035.0, 1037.0, 215.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 177.0, 259.0, 190.0, 40.0 ],
+					"style" : "rnbodefault",
+					"suppressinlet" : 1,
+					"text" : "Song Presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "",
+					"bubblesize" : 100,
+					"id" : "obj-238",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 702.0, 898.0, 170.0, 61.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.0, 303.0, 320.0, 114.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-292", "toggle", "int", 0, 5, "obj-289", "toggle", "int", 0, 5, "obj-286", "toggle", "int", 0, 5, "obj-283", "toggle", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-277", "toggle", "int", 0, 5, "obj-274", "toggle", "int", 0, 5, "obj-454", "toggle", "int", 0, 5, "obj-271", "toggle", "int", 0, 5, "obj-451", "toggle", "int", 0, 5, "obj-268", "toggle", "int", 0, 5, "obj-448", "toggle", "int", 0, 5, "obj-265", "toggle", "int", 0, 5, "obj-445", "toggle", "int", 0, 5, "obj-261", "toggle", "int", 0, 5, "obj-442", "toggle", "int", 0, 5, "obj-247", "toggle", "int", 0, 5, "obj-436", "toggle", "int", 0, 5, "obj-242", "toggle", "int", 0, 5, "obj-433", "toggle", "int", 0, 5, "obj-239", "toggle", "int", 0, 5, "obj-430", "toggle", "int", 0, 5, "obj-231", "toggle", "int", 0, 5, "obj-427", "toggle", "int", 0, 5, "obj-196", "toggle", "int", 0, 5, "obj-424", "toggle", "int", 0, 5, "obj-193", "toggle", "int", 0, 5, "obj-421", "toggle", "int", 0, 5, "obj-190", "toggle", "int", 0, 5, "obj-418", "toggle", "int", 0, 5, "obj-187", "toggle", "int", 0, 5, "obj-415", "toggle", "int", 0, 5, "obj-184", "toggle", "int", 0, 5, "obj-412", "toggle", "int", 0, 5, "obj-181", "toggle", "int", 0, 5, "obj-409", "toggle", "int", 0, 5, "obj-177", "toggle", "int", 0, 5, "obj-406", "toggle", "int", 0, 5, "obj-109", "toggle", "int", 0, 5, "obj-570", "toggle", "int", 1, 5, "obj-400", "toggle", "int", 0, 5, "obj-567", "toggle", "int", 1, 5, "obj-397", "toggle", "int", 0, 5, "obj-110", "toggle", "int", 1, 5, "obj-564", "toggle", "int", 1, 5, "obj-394", "toggle", "int", 0, 5, "obj-561", "toggle", "int", 1, 5, "obj-108", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-558", "toggle", "int", 1, 5, "obj-106", "toggle", "int", 1, 5, "obj-388", "toggle", "int", 0, 5, "obj-555", "toggle", "int", 1, 5, "obj-385", "toggle", "int", 0, 5, "obj-104", "toggle", "int", 1, 5, "obj-552", "toggle", "int", 1, 5, "obj-382", "toggle", "int", 0, 5, "obj-102", "toggle", "int", 0, 5, "obj-549", "toggle", "int", 1, 5, "obj-379", "toggle", "int", 0, 5, "obj-100", "toggle", "int", 0, 5, "obj-546", "toggle", "int", 1, 5, "obj-376", "toggle", "int", 0, 5, "obj-543", "toggle", "int", 1, 5, "obj-373", "toggle", "int", 0, 5, "obj-540", "toggle", "int", 1, 5, "obj-370", "toggle", "int", 0, 5, "obj-537", "toggle", "int", 1, 5, "obj-84", "toggle", "int", 0, 5, "obj-367", "toggle", "int", 0, 5, "obj-534", "toggle", "int", 1, 5, "obj-82", "toggle", "int", 0, 5, "obj-364", "toggle", "int", 0, 5, "obj-531", "toggle", "int", 1, 5, "obj-80", "toggle", "int", 0, 5, "obj-361", "toggle", "int", 0, 5, "obj-528", "toggle", "int", 1, 5, "obj-78", "toggle", "int", 0, 5, "obj-358", "toggle", "int", 0, 5, "obj-525", "toggle", "int", 1, 5, "obj-355", "toggle", "int", 0, 5, "obj-76", "toggle", "int", 0, 5, "obj-522", "toggle", "int", 1, 5, "obj-352", "toggle", "int", 0, 5, "obj-74", "toggle", "int", 0, 5, "obj-519", "toggle", "int", 1, 5, "obj-349", "toggle", "int", 0, 5, "obj-72", "toggle", "int", 0, 5, "obj-516", "toggle", "int", 1, 5, "obj-346", "toggle", "int", 0, 5, "obj-513", "toggle", "int", 1, 5, "obj-343", "toggle", "int", 0, 5, "obj-510", "toggle", "int", 1, 5, "obj-340", "toggle", "int", 0, 5, "obj-50", "toggle", "int", 0, 5, "obj-507", "toggle", "int", 1, 5, "obj-337", "toggle", "int", 0, 5, "obj-48", "toggle", "int", 0, 5, "obj-504", "toggle", "int", 1, 5, "obj-334", "toggle", "int", 0, 5, "obj-46", "toggle", "int", 0, 5, "obj-499", "toggle", "int", 1, 5, "obj-44", "toggle", "int", 0, 5, "obj-331", "toggle", "int", 0, 5, "obj-42", "toggle", "int", 0, 5, "obj-496", "toggle", "int", 1, 5, "obj-328", "toggle", "int", 0, 5, "obj-40", "toggle", "int", 0, 5, "obj-493", "toggle", "int", 1, 5, "obj-325", "toggle", "int", 0, 5, "obj-490", "toggle", "int", 1, 5, "obj-322", "toggle", "int", 0, 5, "obj-487", "toggle", "int", 1, 5, "obj-21", "toggle", "int", 0, 5, "obj-319", "toggle", "int", 0, 5, "obj-484", "toggle", "int", 1, 5, "obj-19", "toggle", "int", 0, 5, "obj-316", "toggle", "int", 0, 5, "obj-15", "toggle", "int", 0, 5, "obj-481", "toggle", "int", 1, 5, "obj-313", "toggle", "int", 0, 5, "obj-17", "toggle", "int", 0, 5, "obj-478", "toggle", "int", 1, 5, "obj-310", "toggle", "int", 0, 5, "obj-13", "toggle", "int", 0, 5, "obj-475", "toggle", "int", 1, 5, "obj-11", "toggle", "int", 0, 5, "obj-307", "toggle", "int", 0, 5, "obj-472", "toggle", "int", 1, 5, "obj-9", "toggle", "int", 0, 5, "obj-304", "toggle", "int", 0, 5, "obj-7", "toggle", "int", 0, 5, "obj-466", "toggle", "int", 1, 5, "obj-298", "toggle", "int", 0, 5, "obj-295", "number", "int", 0, 5, "obj-287", "number", "int", 60, 5, "obj-284", "number", "int", 62, 5, "obj-281", "number", "int", 64, 5, "obj-278", "number", "int", 65, 5, "obj-275", "number", "int", 64, 5, "obj-272", "number", "int", 62, 5, "obj-452", "number", "int", 0, 5, "obj-269", "number", "int", 60, 5, "obj-449", "number", "int", 0, 5, "obj-266", "number", "int", 60, 5, "obj-446", "number", "int", 48, 5, "obj-262", "number", "int", 62, 5, "obj-443", "number", "int", 48, 5, "obj-249", "number", "int", 62, 5, "obj-440", "number", "int", 50, 5, "obj-243", "number", "int", 60, 5, "obj-434", "number", "int", 50, 5, "obj-240", "number", "int", 60, 5, "obj-431", "number", "int", 51, 5, "obj-232", "number", "int", 60, 5, "obj-428", "number", "int", 51, 5, "obj-218", "number", "int", 60, 5, "obj-425", "number", "int", 50, 5, "obj-194", "number", "int", 62, 5, "obj-422", "number", "int", 50, 5, "obj-191", "number", "int", 62, 5, "obj-419", "number", "int", 51, 5, "obj-188", "number", "int", 60, 5, "obj-416", "number", "int", 51, 5, "obj-185", "number", "int", 57, 5, "obj-413", "number", "int", 53, 5, "obj-182", "number", "int", 57, 5, "obj-410", "number", "int", 53, 5, "obj-179", "number", "int", 62, 5, "obj-407", "number", "int", 0, 5, "obj-165", "number", "int", 60, 5, "obj-404", "number", "int", 53, 5, "obj-164", "number", "int", 57, 5, "obj-568", "number", "int", 52, 5, "obj-398", "number", "int", 53, 5, "obj-565", "number", "int", 55, 5, "obj-395", "number", "int", 0, 5, "obj-562", "number", "int", 54, 5, "obj-122", "number", "int", 57, 5, "obj-392", "number", "int", 53, 5, "obj-559", "number", "int", 52, 5, "obj-389", "number", "int", 53, 5, "obj-121", "number", "int", 53, 5, "obj-556", "number", "int", 55, 5, "obj-386", "number", "int", 0, 5, "obj-120", "number", "int", 55, 5, "obj-553", "number", "int", 59, 5, "obj-383", "number", "int", 53, 5, "obj-119", "number", "int", 57, 5, "obj-550", "number", "int", 57, 5, "obj-380", "number", "int", 53, 5, "obj-118", "number", "int", 57, 5, "obj-547", "number", "int", 60, 5, "obj-377", "number", "int", 55, 5, "obj-117", "number", "int", 53, 5, "obj-374", "number", "int", 55, 5, "obj-541", "number", "int", 57, 5, "obj-371", "number", "int", 0, 5, "obj-538", "number", "int", 64, 5, "obj-368", "number", "int", 55, 5, "obj-535", "number", "int", 64, 5, "obj-98", "number", "int", 53, 5, "obj-365", "number", "int", 55, 5, "obj-532", "number", "int", 59, 5, "obj-362", "number", "int", 0, 5, "obj-97", "number", "int", 55, 5, "obj-529", "number", "int", 59, 5, "obj-359", "number", "int", 55, 5, "obj-96", "number", "int", 57, 5, "obj-526", "number", "int", 59, 5, "obj-356", "number", "int", 55, 5, "obj-95", "number", "int", 58, 5, "obj-523", "number", "int", 59, 5, "obj-353", "number", "int", 58, 5, "obj-94", "number", "int", 58, 5, "obj-520", "number", "int", 57, 5, "obj-350", "number", "int", 58, 5, "obj-93", "number", "int", 58, 5, "obj-517", "number", "int", 52, 5, "obj-347", "number", "int", 60, 5, "obj-92", "number", "int", 53, 5, "obj-514", "number", "int", 55, 5, "obj-344", "number", "int", 60, 5, "obj-511", "number", "int", 59, 5, "obj-65", "number", "int", 55, 5, "obj-341", "number", "int", 58, 5, "obj-508", "number", "int", 57, 5, "obj-338", "number", "int", 58, 5, "obj-64", "number", "int", 53, 5, "obj-505", "number", "int", 60, 5, "obj-335", "number", "int", 53, 5, "obj-63", "number", "int", 55, 5, "obj-502", "number", "int", 57, 5, "obj-332", "number", "int", 53, 5, "obj-62", "number", "int", 57, 5, "obj-497", "number", "int", 57, 5, "obj-329", "number", "int", 55, 5, "obj-61", "number", "int", 57, 5, "obj-494", "number", "int", 60, 5, "obj-326", "number", "int", 62, 5, "obj-60", "number", "int", 48, 5, "obj-491", "number", "int", 60, 5, "obj-323", "number", "int", 60, 5, "obj-38", "number", "int", 48, 5, "obj-488", "number", "int", 62, 5, "obj-320", "number", "int", 65, 5, "obj-37", "number", "int", 52, 5, "obj-485", "number", "int", 62, 5, "obj-317", "number", "int", 60, 5, "obj-482", "number", "int", 59, 5, "obj-36", "number", "int", 55, 5, "obj-314", "number", "int", 63, 5, "obj-479", "number", "int", 59, 5, "obj-35", "number", "int", 57, 5, "obj-311", "number", "int", 70, 5, "obj-476", "number", "int", 60, 5, "obj-34", "number", "int", 57, 5, "obj-308", "number", "int", 67, 5, "obj-473", "number", "int", 60, 5, "obj-33", "number", "int", 57, 5, "obj-305", "number", "int", 70, 5, "obj-470", "number", "int", 59, 5, "obj-32", "number", "int", 57, 5, "obj-302", "number", "int", 67, 5, "obj-469", "number", "int", 59, 5, "obj-31", "number", "int", 57, 5, "obj-301", "number", "int", 60 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-292", "toggle", "int", 0, 5, "obj-289", "toggle", "int", 0, 5, "obj-286", "toggle", "int", 0, 5, "obj-283", "toggle", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-277", "toggle", "int", 0, 5, "obj-274", "toggle", "int", 0, 5, "obj-454", "toggle", "int", 0, 5, "obj-271", "toggle", "int", 0, 5, "obj-451", "toggle", "int", 0, 5, "obj-268", "toggle", "int", 0, 5, "obj-448", "toggle", "int", 1, 5, "obj-265", "toggle", "int", 0, 5, "obj-445", "toggle", "int", 1, 5, "obj-261", "toggle", "int", 0, 5, "obj-442", "toggle", "int", 1, 5, "obj-247", "toggle", "int", 0, 5, "obj-436", "toggle", "int", 1, 5, "obj-242", "toggle", "int", 0, 5, "obj-433", "toggle", "int", 1, 5, "obj-239", "toggle", "int", 0, 5, "obj-430", "toggle", "int", 1, 5, "obj-231", "toggle", "int", 0, 5, "obj-427", "toggle", "int", 1, 5, "obj-196", "toggle", "int", 0, 5, "obj-424", "toggle", "int", 1, 5, "obj-193", "toggle", "int", 0, 5, "obj-421", "toggle", "int", 1, 5, "obj-190", "toggle", "int", 0, 5, "obj-418", "toggle", "int", 1, 5, "obj-187", "toggle", "int", 0, 5, "obj-415", "toggle", "int", 1, 5, "obj-184", "toggle", "int", 0, 5, "obj-412", "toggle", "int", 1, 5, "obj-181", "toggle", "int", 0, 5, "obj-409", "toggle", "int", 0, 5, "obj-177", "toggle", "int", 0, 5, "obj-406", "toggle", "int", 1, 5, "obj-109", "toggle", "int", 0, 5, "obj-570", "toggle", "int", 0, 5, "obj-400", "toggle", "int", 1, 5, "obj-567", "toggle", "int", 0, 5, "obj-397", "toggle", "int", 0, 5, "obj-110", "toggle", "int", 0, 5, "obj-564", "toggle", "int", 0, 5, "obj-394", "toggle", "int", 1, 5, "obj-561", "toggle", "int", 0, 5, "obj-108", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 1, 5, "obj-558", "toggle", "int", 0, 5, "obj-106", "toggle", "int", 0, 5, "obj-388", "toggle", "int", 0, 5, "obj-555", "toggle", "int", 0, 5, "obj-385", "toggle", "int", 1, 5, "obj-104", "toggle", "int", 0, 5, "obj-552", "toggle", "int", 0, 5, "obj-382", "toggle", "int", 1, 5, "obj-102", "toggle", "int", 0, 5, "obj-549", "toggle", "int", 0, 5, "obj-379", "toggle", "int", 1, 5, "obj-100", "toggle", "int", 0, 5, "obj-546", "toggle", "int", 0, 5, "obj-376", "toggle", "int", 1, 5, "obj-543", "toggle", "int", 0, 5, "obj-373", "toggle", "int", 0, 5, "obj-540", "toggle", "int", 0, 5, "obj-370", "toggle", "int", 1, 5, "obj-537", "toggle", "int", 0, 5, "obj-84", "toggle", "int", 0, 5, "obj-367", "toggle", "int", 1, 5, "obj-534", "toggle", "int", 0, 5, "obj-82", "toggle", "int", 0, 5, "obj-364", "toggle", "int", 0, 5, "obj-531", "toggle", "int", 0, 5, "obj-80", "toggle", "int", 0, 5, "obj-361", "toggle", "int", 1, 5, "obj-528", "toggle", "int", 0, 5, "obj-78", "toggle", "int", 0, 5, "obj-358", "toggle", "int", 1, 5, "obj-525", "toggle", "int", 0, 5, "obj-355", "toggle", "int", 1, 5, "obj-76", "toggle", "int", 0, 5, "obj-522", "toggle", "int", 0, 5, "obj-352", "toggle", "int", 1, 5, "obj-74", "toggle", "int", 0, 5, "obj-519", "toggle", "int", 0, 5, "obj-349", "toggle", "int", 1, 5, "obj-72", "toggle", "int", 0, 5, "obj-516", "toggle", "int", 0, 5, "obj-346", "toggle", "int", 1, 5, "obj-513", "toggle", "int", 0, 5, "obj-343", "toggle", "int", 1, 5, "obj-510", "toggle", "int", 0, 5, "obj-340", "toggle", "int", 1, 5, "obj-50", "toggle", "int", 0, 5, "obj-507", "toggle", "int", 0, 5, "obj-337", "toggle", "int", 1, 5, "obj-48", "toggle", "int", 0, 5, "obj-504", "toggle", "int", 0, 5, "obj-334", "toggle", "int", 1, 5, "obj-46", "toggle", "int", 0, 5, "obj-499", "toggle", "int", 0, 5, "obj-44", "toggle", "int", 0, 5, "obj-331", "toggle", "int", 1, 5, "obj-42", "toggle", "int", 0, 5, "obj-496", "toggle", "int", 0, 5, "obj-328", "toggle", "int", 1, 5, "obj-40", "toggle", "int", 0, 5, "obj-493", "toggle", "int", 0, 5, "obj-325", "toggle", "int", 1, 5, "obj-490", "toggle", "int", 0, 5, "obj-322", "toggle", "int", 1, 5, "obj-487", "toggle", "int", 0, 5, "obj-21", "toggle", "int", 0, 5, "obj-319", "toggle", "int", 1, 5, "obj-484", "toggle", "int", 0, 5, "obj-19", "toggle", "int", 0, 5, "obj-316", "toggle", "int", 1, 5, "obj-15", "toggle", "int", 0, 5, "obj-481", "toggle", "int", 0, 5, "obj-313", "toggle", "int", 1, 5, "obj-17", "toggle", "int", 0, 5, "obj-478", "toggle", "int", 0, 5, "obj-310", "toggle", "int", 1, 5, "obj-13", "toggle", "int", 0, 5, "obj-475", "toggle", "int", 0, 5, "obj-11", "toggle", "int", 0, 5, "obj-307", "toggle", "int", 0, 5, "obj-472", "toggle", "int", 0, 5, "obj-9", "toggle", "int", 0, 5, "obj-304", "toggle", "int", 1, 5, "obj-7", "toggle", "int", 0, 5, "obj-466", "toggle", "int", 0, 5, "obj-298", "toggle", "int", 1, 5, "obj-295", "number", "int", 0, 5, "obj-287", "number", "int", 60, 5, "obj-284", "number", "int", 62, 5, "obj-281", "number", "int", 64, 5, "obj-278", "number", "int", 65, 5, "obj-275", "number", "int", 64, 5, "obj-272", "number", "int", 62, 5, "obj-452", "number", "int", 0, 5, "obj-269", "number", "int", 60, 5, "obj-449", "number", "int", 0, 5, "obj-266", "number", "int", 60, 5, "obj-446", "number", "int", 48, 5, "obj-262", "number", "int", 62, 5, "obj-443", "number", "int", 48, 5, "obj-249", "number", "int", 62, 5, "obj-440", "number", "int", 50, 5, "obj-243", "number", "int", 60, 5, "obj-434", "number", "int", 50, 5, "obj-240", "number", "int", 60, 5, "obj-431", "number", "int", 51, 5, "obj-232", "number", "int", 60, 5, "obj-428", "number", "int", 51, 5, "obj-218", "number", "int", 60, 5, "obj-425", "number", "int", 50, 5, "obj-194", "number", "int", 62, 5, "obj-422", "number", "int", 50, 5, "obj-191", "number", "int", 62, 5, "obj-419", "number", "int", 51, 5, "obj-188", "number", "int", 60, 5, "obj-416", "number", "int", 51, 5, "obj-185", "number", "int", 57, 5, "obj-413", "number", "int", 53, 5, "obj-182", "number", "int", 57, 5, "obj-410", "number", "int", 53, 5, "obj-179", "number", "int", 62, 5, "obj-407", "number", "int", 0, 5, "obj-165", "number", "int", 60, 5, "obj-404", "number", "int", 53, 5, "obj-164", "number", "int", 57, 5, "obj-568", "number", "int", 52, 5, "obj-398", "number", "int", 53, 5, "obj-565", "number", "int", 55, 5, "obj-395", "number", "int", 0, 5, "obj-562", "number", "int", 54, 5, "obj-122", "number", "int", 57, 5, "obj-392", "number", "int", 53, 5, "obj-559", "number", "int", 52, 5, "obj-389", "number", "int", 53, 5, "obj-121", "number", "int", 53, 5, "obj-556", "number", "int", 55, 5, "obj-386", "number", "int", 0, 5, "obj-120", "number", "int", 55, 5, "obj-553", "number", "int", 59, 5, "obj-383", "number", "int", 53, 5, "obj-119", "number", "int", 57, 5, "obj-550", "number", "int", 57, 5, "obj-380", "number", "int", 53, 5, "obj-118", "number", "int", 57, 5, "obj-547", "number", "int", 60, 5, "obj-377", "number", "int", 55, 5, "obj-117", "number", "int", 53, 5, "obj-374", "number", "int", 55, 5, "obj-541", "number", "int", 57, 5, "obj-371", "number", "int", 0, 5, "obj-538", "number", "int", 64, 5, "obj-368", "number", "int", 55, 5, "obj-535", "number", "int", 64, 5, "obj-98", "number", "int", 53, 5, "obj-365", "number", "int", 55, 5, "obj-532", "number", "int", 59, 5, "obj-362", "number", "int", 0, 5, "obj-97", "number", "int", 55, 5, "obj-529", "number", "int", 59, 5, "obj-359", "number", "int", 55, 5, "obj-96", "number", "int", 57, 5, "obj-526", "number", "int", 59, 5, "obj-356", "number", "int", 55, 5, "obj-95", "number", "int", 58, 5, "obj-523", "number", "int", 59, 5, "obj-353", "number", "int", 58, 5, "obj-94", "number", "int", 58, 5, "obj-520", "number", "int", 57, 5, "obj-350", "number", "int", 58, 5, "obj-93", "number", "int", 58, 5, "obj-517", "number", "int", 52, 5, "obj-347", "number", "int", 60, 5, "obj-92", "number", "int", 53, 5, "obj-514", "number", "int", 55, 5, "obj-344", "number", "int", 60, 5, "obj-511", "number", "int", 59, 5, "obj-65", "number", "int", 55, 5, "obj-341", "number", "int", 58, 5, "obj-508", "number", "int", 57, 5, "obj-338", "number", "int", 58, 5, "obj-64", "number", "int", 53, 5, "obj-505", "number", "int", 60, 5, "obj-335", "number", "int", 53, 5, "obj-63", "number", "int", 55, 5, "obj-502", "number", "int", 57, 5, "obj-332", "number", "int", 53, 5, "obj-62", "number", "int", 57, 5, "obj-497", "number", "int", 57, 5, "obj-329", "number", "int", 55, 5, "obj-61", "number", "int", 57, 5, "obj-494", "number", "int", 60, 5, "obj-326", "number", "int", 55, 5, "obj-60", "number", "int", 48, 5, "obj-491", "number", "int", 60, 5, "obj-323", "number", "int", 51, 5, "obj-38", "number", "int", 48, 5, "obj-488", "number", "int", 62, 5, "obj-320", "number", "int", 51, 5, "obj-37", "number", "int", 52, 5, "obj-485", "number", "int", 62, 5, "obj-317", "number", "int", 50, 5, "obj-482", "number", "int", 59, 5, "obj-36", "number", "int", 55, 5, "obj-314", "number", "int", 50, 5, "obj-479", "number", "int", 59, 5, "obj-35", "number", "int", 57, 5, "obj-311", "number", "int", 48, 5, "obj-476", "number", "int", 60, 5, "obj-34", "number", "int", 57, 5, "obj-308", "number", "int", 48, 5, "obj-473", "number", "int", 60, 5, "obj-33", "number", "int", 57, 5, "obj-305", "number", "int", 0, 5, "obj-470", "number", "int", 59, 5, "obj-32", "number", "int", 57, 5, "obj-302", "number", "int", 48, 5, "obj-469", "number", "int", 59, 5, "obj-31", "number", "int", 57, 5, "obj-301", "number", "int", 48 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-292", "toggle", "int", 0, 5, "obj-289", "toggle", "int", 0, 5, "obj-286", "toggle", "int", 0, 5, "obj-283", "toggle", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-277", "toggle", "int", 0, 5, "obj-274", "toggle", "int", 0, 5, "obj-454", "toggle", "int", 0, 5, "obj-271", "toggle", "int", 0, 5, "obj-451", "toggle", "int", 0, 5, "obj-268", "toggle", "int", 0, 5, "obj-448", "toggle", "int", 0, 5, "obj-265", "toggle", "int", 0, 5, "obj-445", "toggle", "int", 0, 5, "obj-261", "toggle", "int", 0, 5, "obj-442", "toggle", "int", 0, 5, "obj-247", "toggle", "int", 0, 5, "obj-436", "toggle", "int", 0, 5, "obj-242", "toggle", "int", 0, 5, "obj-433", "toggle", "int", 0, 5, "obj-239", "toggle", "int", 0, 5, "obj-430", "toggle", "int", 0, 5, "obj-231", "toggle", "int", 0, 5, "obj-427", "toggle", "int", 0, 5, "obj-196", "toggle", "int", 0, 5, "obj-424", "toggle", "int", 0, 5, "obj-193", "toggle", "int", 0, 5, "obj-421", "toggle", "int", 0, 5, "obj-190", "toggle", "int", 0, 5, "obj-418", "toggle", "int", 0, 5, "obj-187", "toggle", "int", 0, 5, "obj-415", "toggle", "int", 0, 5, "obj-184", "toggle", "int", 0, 5, "obj-412", "toggle", "int", 0, 5, "obj-181", "toggle", "int", 0, 5, "obj-409", "toggle", "int", 0, 5, "obj-177", "toggle", "int", 0, 5, "obj-406", "toggle", "int", 0, 5, "obj-109", "toggle", "int", 0, 5, "obj-570", "toggle", "int", 1, 5, "obj-400", "toggle", "int", 0, 5, "obj-567", "toggle", "int", 1, 5, "obj-397", "toggle", "int", 0, 5, "obj-110", "toggle", "int", 1, 5, "obj-564", "toggle", "int", 1, 5, "obj-394", "toggle", "int", 0, 5, "obj-561", "toggle", "int", 1, 5, "obj-108", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-558", "toggle", "int", 1, 5, "obj-106", "toggle", "int", 1, 5, "obj-388", "toggle", "int", 0, 5, "obj-555", "toggle", "int", 1, 5, "obj-385", "toggle", "int", 0, 5, "obj-104", "toggle", "int", 1, 5, "obj-552", "toggle", "int", 1, 5, "obj-382", "toggle", "int", 0, 5, "obj-102", "toggle", "int", 0, 5, "obj-549", "toggle", "int", 1, 5, "obj-379", "toggle", "int", 0, 5, "obj-100", "toggle", "int", 0, 5, "obj-546", "toggle", "int", 1, 5, "obj-376", "toggle", "int", 0, 5, "obj-543", "toggle", "int", 1, 5, "obj-373", "toggle", "int", 0, 5, "obj-540", "toggle", "int", 1, 5, "obj-370", "toggle", "int", 0, 5, "obj-537", "toggle", "int", 1, 5, "obj-84", "toggle", "int", 0, 5, "obj-367", "toggle", "int", 0, 5, "obj-534", "toggle", "int", 1, 5, "obj-82", "toggle", "int", 0, 5, "obj-364", "toggle", "int", 0, 5, "obj-531", "toggle", "int", 1, 5, "obj-80", "toggle", "int", 0, 5, "obj-361", "toggle", "int", 0, 5, "obj-528", "toggle", "int", 1, 5, "obj-78", "toggle", "int", 0, 5, "obj-358", "toggle", "int", 0, 5, "obj-525", "toggle", "int", 1, 5, "obj-355", "toggle", "int", 0, 5, "obj-76", "toggle", "int", 0, 5, "obj-522", "toggle", "int", 1, 5, "obj-352", "toggle", "int", 0, 5, "obj-74", "toggle", "int", 0, 5, "obj-519", "toggle", "int", 1, 5, "obj-349", "toggle", "int", 0, 5, "obj-72", "toggle", "int", 0, 5, "obj-516", "toggle", "int", 1, 5, "obj-346", "toggle", "int", 0, 5, "obj-513", "toggle", "int", 1, 5, "obj-343", "toggle", "int", 0, 5, "obj-510", "toggle", "int", 1, 5, "obj-340", "toggle", "int", 0, 5, "obj-50", "toggle", "int", 0, 5, "obj-507", "toggle", "int", 1, 5, "obj-337", "toggle", "int", 0, 5, "obj-48", "toggle", "int", 0, 5, "obj-504", "toggle", "int", 1, 5, "obj-334", "toggle", "int", 0, 5, "obj-46", "toggle", "int", 0, 5, "obj-499", "toggle", "int", 1, 5, "obj-44", "toggle", "int", 0, 5, "obj-331", "toggle", "int", 0, 5, "obj-42", "toggle", "int", 0, 5, "obj-496", "toggle", "int", 1, 5, "obj-328", "toggle", "int", 0, 5, "obj-40", "toggle", "int", 0, 5, "obj-493", "toggle", "int", 1, 5, "obj-325", "toggle", "int", 0, 5, "obj-490", "toggle", "int", 1, 5, "obj-322", "toggle", "int", 0, 5, "obj-487", "toggle", "int", 1, 5, "obj-21", "toggle", "int", 0, 5, "obj-319", "toggle", "int", 0, 5, "obj-484", "toggle", "int", 1, 5, "obj-19", "toggle", "int", 0, 5, "obj-316", "toggle", "int", 0, 5, "obj-15", "toggle", "int", 0, 5, "obj-481", "toggle", "int", 1, 5, "obj-313", "toggle", "int", 0, 5, "obj-17", "toggle", "int", 0, 5, "obj-478", "toggle", "int", 1, 5, "obj-310", "toggle", "int", 0, 5, "obj-13", "toggle", "int", 0, 5, "obj-475", "toggle", "int", 1, 5, "obj-11", "toggle", "int", 0, 5, "obj-307", "toggle", "int", 0, 5, "obj-472", "toggle", "int", 1, 5, "obj-9", "toggle", "int", 0, 5, "obj-304", "toggle", "int", 0, 5, "obj-7", "toggle", "int", 0, 5, "obj-466", "toggle", "int", 1, 5, "obj-298", "toggle", "int", 0, 5, "obj-295", "number", "int", 0, 5, "obj-287", "number", "int", 60, 5, "obj-284", "number", "int", 62, 5, "obj-281", "number", "int", 64, 5, "obj-278", "number", "int", 65, 5, "obj-275", "number", "int", 64, 5, "obj-272", "number", "int", 62, 5, "obj-452", "number", "int", 0, 5, "obj-269", "number", "int", 60, 5, "obj-449", "number", "int", 0, 5, "obj-266", "number", "int", 60, 5, "obj-446", "number", "int", 48, 5, "obj-262", "number", "int", 62, 5, "obj-443", "number", "int", 48, 5, "obj-249", "number", "int", 62, 5, "obj-440", "number", "int", 50, 5, "obj-243", "number", "int", 60, 5, "obj-434", "number", "int", 50, 5, "obj-240", "number", "int", 60, 5, "obj-431", "number", "int", 51, 5, "obj-232", "number", "int", 60, 5, "obj-428", "number", "int", 51, 5, "obj-218", "number", "int", 60, 5, "obj-425", "number", "int", 50, 5, "obj-194", "number", "int", 62, 5, "obj-422", "number", "int", 50, 5, "obj-191", "number", "int", 62, 5, "obj-419", "number", "int", 51, 5, "obj-188", "number", "int", 60, 5, "obj-416", "number", "int", 51, 5, "obj-185", "number", "int", 57, 5, "obj-413", "number", "int", 53, 5, "obj-182", "number", "int", 57, 5, "obj-410", "number", "int", 53, 5, "obj-179", "number", "int", 62, 5, "obj-407", "number", "int", 0, 5, "obj-165", "number", "int", 60, 5, "obj-404", "number", "int", 53, 5, "obj-164", "number", "int", 57, 5, "obj-568", "number", "int", 52, 5, "obj-398", "number", "int", 53, 5, "obj-565", "number", "int", 55, 5, "obj-395", "number", "int", 0, 5, "obj-562", "number", "int", 54, 5, "obj-122", "number", "int", 57, 5, "obj-392", "number", "int", 53, 5, "obj-559", "number", "int", 52, 5, "obj-389", "number", "int", 53, 5, "obj-121", "number", "int", 53, 5, "obj-556", "number", "int", 55, 5, "obj-386", "number", "int", 0, 5, "obj-120", "number", "int", 55, 5, "obj-553", "number", "int", 59, 5, "obj-383", "number", "int", 53, 5, "obj-119", "number", "int", 57, 5, "obj-550", "number", "int", 57, 5, "obj-380", "number", "int", 53, 5, "obj-118", "number", "int", 57, 5, "obj-547", "number", "int", 60, 5, "obj-377", "number", "int", 55, 5, "obj-117", "number", "int", 53, 5, "obj-374", "number", "int", 55, 5, "obj-541", "number", "int", 57, 5, "obj-371", "number", "int", 0, 5, "obj-538", "number", "int", 64, 5, "obj-368", "number", "int", 55, 5, "obj-535", "number", "int", 64, 5, "obj-98", "number", "int", 53, 5, "obj-365", "number", "int", 55, 5, "obj-532", "number", "int", 59, 5, "obj-362", "number", "int", 0, 5, "obj-97", "number", "int", 55, 5, "obj-529", "number", "int", 59, 5, "obj-359", "number", "int", 55, 5, "obj-96", "number", "int", 57, 5, "obj-526", "number", "int", 59, 5, "obj-356", "number", "int", 55, 5, "obj-95", "number", "int", 58, 5, "obj-523", "number", "int", 59, 5, "obj-353", "number", "int", 58, 5, "obj-94", "number", "int", 58, 5, "obj-520", "number", "int", 57, 5, "obj-350", "number", "int", 58, 5, "obj-93", "number", "int", 58, 5, "obj-517", "number", "int", 52, 5, "obj-347", "number", "int", 60, 5, "obj-92", "number", "int", 53, 5, "obj-514", "number", "int", 55, 5, "obj-344", "number", "int", 60, 5, "obj-511", "number", "int", 59, 5, "obj-65", "number", "int", 55, 5, "obj-341", "number", "int", 58, 5, "obj-508", "number", "int", 57, 5, "obj-338", "number", "int", 58, 5, "obj-64", "number", "int", 53, 5, "obj-505", "number", "int", 60, 5, "obj-335", "number", "int", 53, 5, "obj-63", "number", "int", 55, 5, "obj-502", "number", "int", 57, 5, "obj-332", "number", "int", 53, 5, "obj-62", "number", "int", 57, 5, "obj-497", "number", "int", 57, 5, "obj-329", "number", "int", 55, 5, "obj-61", "number", "int", 57, 5, "obj-494", "number", "int", 60, 5, "obj-326", "number", "int", 62, 5, "obj-60", "number", "int", 48, 5, "obj-491", "number", "int", 60, 5, "obj-323", "number", "int", 60, 5, "obj-38", "number", "int", 48, 5, "obj-488", "number", "int", 62, 5, "obj-320", "number", "int", 65, 5, "obj-37", "number", "int", 52, 5, "obj-485", "number", "int", 62, 5, "obj-317", "number", "int", 60, 5, "obj-482", "number", "int", 59, 5, "obj-36", "number", "int", 55, 5, "obj-314", "number", "int", 63, 5, "obj-479", "number", "int", 59, 5, "obj-35", "number", "int", 57, 5, "obj-311", "number", "int", 70, 5, "obj-476", "number", "int", 60, 5, "obj-34", "number", "int", 57, 5, "obj-308", "number", "int", 67, 5, "obj-473", "number", "int", 60, 5, "obj-33", "number", "int", 57, 5, "obj-305", "number", "int", 70, 5, "obj-470", "number", "int", 59, 5, "obj-32", "number", "int", 57, 5, "obj-302", "number", "int", 67, 5, "obj-469", "number", "int", 59, 5, "obj-31", "number", "int", 57, 5, "obj-301", "number", "int", 60 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 269.127985455671194,
+					"bgcolor" : [ 0.796078431372549, 0.298039215686275, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 1.0, 0.125490196078431, 0.019607843137255, 1.0 ],
+					"id" : "obj-592",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2079.0, 13.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.0, 246.5, 491.0, 227.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-591",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1765.0, 28.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 620.0, 518.5, 66.5, 29.0 ],
+					"text" : "Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-590",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1010.5, 92.5, 229.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 868.0, 624.5, 79.5, 29.0 ],
+					"text" : "ASDR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-588",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1482.0, 44.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 383.0, 518.5, 128.5, 29.0 ],
+					"text" : "Pulse Width"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-587",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1179.0, 38.0, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 252.0, 518.5, 105.5, 29.0 ],
+					"text" : "Multiplier"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-585",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 330.0, 21.5, 240.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 68.0, 518.5, 156.5, 29.0 ],
+					"text" : "Oscillator Type"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-248",
+					"maxclass" : "number",
+					"maximum" : 4,
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 305.0, 2023.0, 60.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 323.0, 570.5, 34.0, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-43",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 362.0, 2201.0, 102.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 386.0, 570.5, 123.5, 38.0 ],
+					"size" : 2.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"addpoints" : [ 0.0, 0.028571428571429, 0, 211.538461538461547, 0.757142857142857, 0, 1000.0, 0.0, 0 ],
+					"classic_curve" : 1,
+					"id" : "obj-71",
+					"maxclass" : "function",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "", "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 272.0, 2451.0, 116.0, 95.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 805.0, 503.5, 205.0, 114.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 112.0, 2543.0, 22.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 556.0, 570.5, 194.5, 38.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-226",
+					"items" : [ "none", ",", "sine", ",", "triangle", ",", "saw", "tooth", ",", "rectangle" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 176.0, 2209.0, 100.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 82.0, 572.5, 129.5, 29.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble_outlinecolor" : [ 0.749019607843137, 0.749019607843137, 0.749019607843137, 0.0 ],
+					"fontface" : 2,
+					"fontsize" : 30.0,
+					"id" : "obj-575",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2020.0, 1022.0, 215.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 116.0, 58.5, 218.0, 40.0 ],
+					"style" : "rnbodefault",
+					"suppressinlet" : 1,
+					"text" : "On/Off Volume"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-230",
+					"knobcolor" : [ 0.537254901960784, 0.098039215686275, 0.098039215686275, 1.0 ],
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 937.5, 1490.5, 156.5, 44.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 84.0, 116.5, 208.0, 51.0 ],
+					"stripecolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.831372549019608, 0.054901960784314, 0.054901960784314, 1.0 ],
+					"id" : "obj-140",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 979.0, 1799.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 302.0, 116.5, 52.0, 52.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 269.127985455671194,
+					"bgcolor" : [ 0.796078431372549, 0.298039215686275, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 1.0, 0.125490196078431, 0.019607843137255, 1.0 ],
+					"id" : "obj-578",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2064.0, -2.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.0, 46.5, 361.0, 174.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-573",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 214.0, 993.0, 150.0, 20.0 ],
 					"text" : "\"Once Upon a December\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 269.127985455671194,
+					"bgcolor" : [ 0.796078431372549, 0.298039215686275, 0.298039215686275, 1.0 ],
+					"bordercolor" : [ 1.0, 0.125490196078431, 0.019607843137255, 1.0 ],
+					"id" : "obj-577",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2049.0, -17.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.0, 490.5, 1002.5, 163.0 ],
+					"proportion" : 0.5
 				}
 
 			}
@@ -1351,18 +2604,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 82.0, 960.0, 69.0, 22.0 ],
 					"text" : "qmetro 500"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-463",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 82.0, 915.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -3216,31 +4457,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubblesize" : 50,
-					"id" : "obj-238",
-					"maxclass" : "preset",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 1083.0, 944.0, 170.0, 61.0 ],
-					"preset_data" : [ 						{
-							"number" : 1,
-							"data" : [ 5, "obj-292", "toggle", "int", 0, 5, "obj-289", "toggle", "int", 1, 5, "obj-286", "toggle", "int", 1, 5, "obj-283", "toggle", "int", 1, 5, "obj-280", "toggle", "int", 1, 5, "obj-277", "toggle", "int", 1, 5, "obj-274", "toggle", "int", 1, 5, "obj-454", "toggle", "int", 0, 5, "obj-271", "toggle", "int", 1, 5, "obj-451", "toggle", "int", 0, 5, "obj-268", "toggle", "int", 1, 5, "obj-448", "toggle", "int", 0, 5, "obj-265", "toggle", "int", 1, 5, "obj-445", "toggle", "int", 0, 5, "obj-261", "toggle", "int", 1, 5, "obj-442", "toggle", "int", 0, 5, "obj-247", "toggle", "int", 1, 5, "obj-436", "toggle", "int", 0, 5, "obj-242", "toggle", "int", 1, 5, "obj-433", "toggle", "int", 0, 5, "obj-239", "toggle", "int", 1, 5, "obj-430", "toggle", "int", 0, 5, "obj-231", "toggle", "int", 1, 5, "obj-427", "toggle", "int", 0, 5, "obj-196", "toggle", "int", 1, 5, "obj-424", "toggle", "int", 0, 5, "obj-193", "toggle", "int", 1, 5, "obj-421", "toggle", "int", 0, 5, "obj-190", "toggle", "int", 1, 5, "obj-418", "toggle", "int", 0, 5, "obj-187", "toggle", "int", 1, 5, "obj-415", "toggle", "int", 0, 5, "obj-184", "toggle", "int", 1, 5, "obj-412", "toggle", "int", 0, 5, "obj-181", "toggle", "int", 1, 5, "obj-409", "toggle", "int", 0, 5, "obj-177", "toggle", "int", 1, 5, "obj-406", "toggle", "int", 0, 5, "obj-109", "toggle", "int", 1, 5, "obj-570", "toggle", "int", 0, 5, "obj-400", "toggle", "int", 0, 5, "obj-567", "toggle", "int", 0, 5, "obj-397", "toggle", "int", 0, 5, "obj-110", "toggle", "int", 1, 5, "obj-564", "toggle", "int", 0, 5, "obj-394", "toggle", "int", 0, 5, "obj-561", "toggle", "int", 0, 5, "obj-108", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-558", "toggle", "int", 0, 5, "obj-106", "toggle", "int", 1, 5, "obj-388", "toggle", "int", 0, 5, "obj-555", "toggle", "int", 0, 5, "obj-385", "toggle", "int", 0, 5, "obj-104", "toggle", "int", 1, 5, "obj-552", "toggle", "int", 0, 5, "obj-382", "toggle", "int", 0, 5, "obj-102", "toggle", "int", 1, 5, "obj-549", "toggle", "int", 0, 5, "obj-379", "toggle", "int", 0, 5, "obj-100", "toggle", "int", 1, 5, "obj-546", "toggle", "int", 0, 5, "obj-376", "toggle", "int", 0, 5, "obj-543", "toggle", "int", 0, 5, "obj-373", "toggle", "int", 0, 5, "obj-540", "toggle", "int", 0, 5, "obj-370", "toggle", "int", 0, 5, "obj-537", "toggle", "int", 0, 5, "obj-84", "toggle", "int", 1, 5, "obj-367", "toggle", "int", 0, 5, "obj-534", "toggle", "int", 0, 5, "obj-82", "toggle", "int", 1, 5, "obj-364", "toggle", "int", 0, 5, "obj-531", "toggle", "int", 0, 5, "obj-80", "toggle", "int", 1, 5, "obj-361", "toggle", "int", 0, 5, "obj-528", "toggle", "int", 0, 5, "obj-78", "toggle", "int", 1, 5, "obj-358", "toggle", "int", 0, 5, "obj-525", "toggle", "int", 0, 5, "obj-355", "toggle", "int", 0, 5, "obj-76", "toggle", "int", 1, 5, "obj-522", "toggle", "int", 0, 5, "obj-352", "toggle", "int", 0, 5, "obj-74", "toggle", "int", 1, 5, "obj-519", "toggle", "int", 0, 5, "obj-349", "toggle", "int", 0, 5, "obj-72", "toggle", "int", 1, 5, "obj-516", "toggle", "int", 0, 5, "obj-346", "toggle", "int", 0, 5, "obj-513", "toggle", "int", 0, 5, "obj-343", "toggle", "int", 0, 5, "obj-510", "toggle", "int", 0, 5, "obj-340", "toggle", "int", 0, 5, "obj-50", "toggle", "int", 1, 5, "obj-507", "toggle", "int", 0, 5, "obj-337", "toggle", "int", 0, 5, "obj-48", "toggle", "int", 1, 5, "obj-504", "toggle", "int", 0, 5, "obj-334", "toggle", "int", 0, 5, "obj-46", "toggle", "int", 1, 5, "obj-499", "toggle", "int", 0, 5, "obj-44", "toggle", "int", 1, 5, "obj-331", "toggle", "int", 0, 5, "obj-42", "toggle", "int", 1, 5, "obj-496", "toggle", "int", 0, 5, "obj-328", "toggle", "int", 0, 5, "obj-40", "toggle", "int", 1, 5, "obj-493", "toggle", "int", 0, 5, "obj-325", "toggle", "int", 0, 5, "obj-490", "toggle", "int", 0, 5, "obj-322", "toggle", "int", 0, 5, "obj-487", "toggle", "int", 0, 5, "obj-21", "toggle", "int", 1, 5, "obj-319", "toggle", "int", 0, 5, "obj-484", "toggle", "int", 0, 5, "obj-19", "toggle", "int", 1, 5, "obj-316", "toggle", "int", 0, 5, "obj-15", "toggle", "int", 1, 5, "obj-481", "toggle", "int", 0, 5, "obj-313", "toggle", "int", 0, 5, "obj-17", "toggle", "int", 1, 5, "obj-478", "toggle", "int", 0, 5, "obj-310", "toggle", "int", 0, 5, "obj-13", "toggle", "int", 1, 5, "obj-475", "toggle", "int", 0, 5, "obj-11", "toggle", "int", 1, 5, "obj-307", "toggle", "int", 0, 5, "obj-472", "toggle", "int", 0, 5, "obj-9", "toggle", "int", 1, 5, "obj-304", "toggle", "int", 0, 5, "obj-7", "toggle", "int", 1, 5, "obj-466", "toggle", "int", 0, 5, "obj-298", "toggle", "int", 0, 5, "obj-295", "number", "int", 0, 5, "obj-287", "number", "int", 60, 5, "obj-284", "number", "int", 62, 5, "obj-281", "number", "int", 64, 5, "obj-278", "number", "int", 65, 5, "obj-275", "number", "int", 64, 5, "obj-272", "number", "int", 62, 5, "obj-452", "number", "int", 0, 5, "obj-269", "number", "int", 60, 5, "obj-449", "number", "int", 0, 5, "obj-266", "number", "int", 60, 5, "obj-446", "number", "int", 48, 5, "obj-262", "number", "int", 62, 5, "obj-443", "number", "int", 48, 5, "obj-249", "number", "int", 62, 5, "obj-440", "number", "int", 50, 5, "obj-243", "number", "int", 60, 5, "obj-434", "number", "int", 50, 5, "obj-240", "number", "int", 60, 5, "obj-431", "number", "int", 51, 5, "obj-232", "number", "int", 60, 5, "obj-428", "number", "int", 51, 5, "obj-218", "number", "int", 60, 5, "obj-425", "number", "int", 50, 5, "obj-194", "number", "int", 62, 5, "obj-422", "number", "int", 50, 5, "obj-191", "number", "int", 62, 5, "obj-419", "number", "int", 51, 5, "obj-188", "number", "int", 60, 5, "obj-416", "number", "int", 51, 5, "obj-185", "number", "int", 57, 5, "obj-413", "number", "int", 53, 5, "obj-182", "number", "int", 57, 5, "obj-410", "number", "int", 53, 5, "obj-179", "number", "int", 62, 5, "obj-407", "number", "int", 0, 5, "obj-165", "number", "int", 60, 5, "obj-404", "number", "int", 53, 5, "obj-164", "number", "int", 57, 5, "obj-568", "number", "int", 52, 5, "obj-398", "number", "int", 53, 5, "obj-565", "number", "int", 55, 5, "obj-395", "number", "int", 0, 5, "obj-562", "number", "int", 54, 5, "obj-122", "number", "int", 57, 5, "obj-392", "number", "int", 53, 5, "obj-559", "number", "int", 52, 5, "obj-389", "number", "int", 53, 5, "obj-121", "number", "int", 53, 5, "obj-556", "number", "int", 55, 5, "obj-386", "number", "int", 0, 5, "obj-120", "number", "int", 55, 5, "obj-553", "number", "int", 59, 5, "obj-383", "number", "int", 53, 5, "obj-119", "number", "int", 57, 5, "obj-550", "number", "int", 57, 5, "obj-380", "number", "int", 53, 5, "obj-118", "number", "int", 57, 5, "obj-547", "number", "int", 60, 5, "obj-377", "number", "int", 55, 5, "obj-117", "number", "int", 53, 5, "obj-374", "number", "int", 55, 5, "obj-541", "number", "int", 57, 5, "obj-371", "number", "int", 0, 5, "obj-538", "number", "int", 64, 5, "obj-368", "number", "int", 55, 5, "obj-535", "number", "int", 64, 5, "obj-98", "number", "int", 53, 5, "obj-365", "number", "int", 55, 5, "obj-532", "number", "int", 59, 5, "obj-362", "number", "int", 0, 5, "obj-97", "number", "int", 55, 5, "obj-529", "number", "int", 59, 5, "obj-359", "number", "int", 55, 5, "obj-96", "number", "int", 57, 5, "obj-526", "number", "int", 59, 5, "obj-356", "number", "int", 55, 5, "obj-95", "number", "int", 58, 5, "obj-523", "number", "int", 59, 5, "obj-353", "number", "int", 58, 5, "obj-94", "number", "int", 58, 5, "obj-520", "number", "int", 57, 5, "obj-350", "number", "int", 58, 5, "obj-93", "number", "int", 58, 5, "obj-517", "number", "int", 52, 5, "obj-347", "number", "int", 60, 5, "obj-92", "number", "int", 53, 5, "obj-514", "number", "int", 55, 5, "obj-344", "number", "int", 60, 5, "obj-511", "number", "int", 59, 5, "obj-65", "number", "int", 55, 5, "obj-341", "number", "int", 58, 5, "obj-508", "number", "int", 57, 5, "obj-338", "number", "int", 58, 5, "obj-64", "number", "int", 53, 5, "obj-505", "number", "int", 60, 5, "obj-335", "number", "int", 53, 5, "obj-63", "number", "int", 55, 5, "obj-502", "number", "int", 57, 5, "obj-332", "number", "int", 53, 5, "obj-62", "number", "int", 57, 5, "obj-497", "number", "int", 57, 5, "obj-329", "number", "int", 55, 5, "obj-61", "number", "int", 57, 5, "obj-494", "number", "int", 60, 5, "obj-326", "number", "int", 62, 5, "obj-60", "number", "int", 48, 5, "obj-491", "number", "int", 60, 5, "obj-323", "number", "int", 60, 5, "obj-38", "number", "int", 48, 5, "obj-488", "number", "int", 62, 5, "obj-320", "number", "int", 65, 5, "obj-37", "number", "int", 52, 5, "obj-485", "number", "int", 62, 5, "obj-317", "number", "int", 60, 5, "obj-482", "number", "int", 59, 5, "obj-36", "number", "int", 55, 5, "obj-314", "number", "int", 63, 5, "obj-479", "number", "int", 59, 5, "obj-35", "number", "int", 57, 5, "obj-311", "number", "int", 70, 5, "obj-476", "number", "int", 60, 5, "obj-34", "number", "int", 57, 5, "obj-308", "number", "int", 67, 5, "obj-473", "number", "int", 60, 5, "obj-33", "number", "int", 57, 5, "obj-305", "number", "int", 70, 5, "obj-470", "number", "int", 59, 5, "obj-32", "number", "int", 57, 5, "obj-302", "number", "int", 67, 5, "obj-469", "number", "int", 59, 5, "obj-31", "number", "int", 57, 5, "obj-301", "number", "int", 60 ]
-						}
-, 						{
-							"number" : 2,
-							"data" : [ 5, "obj-292", "toggle", "int", 0, 5, "obj-289", "toggle", "int", 0, 5, "obj-286", "toggle", "int", 0, 5, "obj-283", "toggle", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-277", "toggle", "int", 0, 5, "obj-274", "toggle", "int", 0, 5, "obj-454", "toggle", "int", 0, 5, "obj-271", "toggle", "int", 0, 5, "obj-451", "toggle", "int", 0, 5, "obj-268", "toggle", "int", 0, 5, "obj-448", "toggle", "int", 1, 5, "obj-265", "toggle", "int", 0, 5, "obj-445", "toggle", "int", 1, 5, "obj-261", "toggle", "int", 0, 5, "obj-442", "toggle", "int", 1, 5, "obj-247", "toggle", "int", 0, 5, "obj-436", "toggle", "int", 1, 5, "obj-242", "toggle", "int", 0, 5, "obj-433", "toggle", "int", 1, 5, "obj-239", "toggle", "int", 0, 5, "obj-430", "toggle", "int", 1, 5, "obj-231", "toggle", "int", 0, 5, "obj-427", "toggle", "int", 1, 5, "obj-196", "toggle", "int", 0, 5, "obj-424", "toggle", "int", 1, 5, "obj-193", "toggle", "int", 0, 5, "obj-421", "toggle", "int", 1, 5, "obj-190", "toggle", "int", 0, 5, "obj-418", "toggle", "int", 1, 5, "obj-187", "toggle", "int", 0, 5, "obj-415", "toggle", "int", 1, 5, "obj-184", "toggle", "int", 0, 5, "obj-412", "toggle", "int", 1, 5, "obj-181", "toggle", "int", 0, 5, "obj-409", "toggle", "int", 0, 5, "obj-177", "toggle", "int", 0, 5, "obj-406", "toggle", "int", 1, 5, "obj-109", "toggle", "int", 0, 5, "obj-570", "toggle", "int", 0, 5, "obj-400", "toggle", "int", 1, 5, "obj-567", "toggle", "int", 0, 5, "obj-397", "toggle", "int", 0, 5, "obj-110", "toggle", "int", 0, 5, "obj-564", "toggle", "int", 0, 5, "obj-394", "toggle", "int", 1, 5, "obj-561", "toggle", "int", 0, 5, "obj-108", "toggle", "int", 0, 5, "obj-391", "toggle", "int", 1, 5, "obj-558", "toggle", "int", 0, 5, "obj-106", "toggle", "int", 0, 5, "obj-388", "toggle", "int", 0, 5, "obj-555", "toggle", "int", 0, 5, "obj-385", "toggle", "int", 1, 5, "obj-104", "toggle", "int", 0, 5, "obj-552", "toggle", "int", 0, 5, "obj-382", "toggle", "int", 1, 5, "obj-102", "toggle", "int", 0, 5, "obj-549", "toggle", "int", 0, 5, "obj-379", "toggle", "int", 1, 5, "obj-100", "toggle", "int", 0, 5, "obj-546", "toggle", "int", 0, 5, "obj-376", "toggle", "int", 1, 5, "obj-543", "toggle", "int", 0, 5, "obj-373", "toggle", "int", 0, 5, "obj-540", "toggle", "int", 0, 5, "obj-370", "toggle", "int", 1, 5, "obj-537", "toggle", "int", 0, 5, "obj-84", "toggle", "int", 0, 5, "obj-367", "toggle", "int", 1, 5, "obj-534", "toggle", "int", 0, 5, "obj-82", "toggle", "int", 0, 5, "obj-364", "toggle", "int", 0, 5, "obj-531", "toggle", "int", 0, 5, "obj-80", "toggle", "int", 0, 5, "obj-361", "toggle", "int", 1, 5, "obj-528", "toggle", "int", 0, 5, "obj-78", "toggle", "int", 0, 5, "obj-358", "toggle", "int", 1, 5, "obj-525", "toggle", "int", 0, 5, "obj-355", "toggle", "int", 1, 5, "obj-76", "toggle", "int", 0, 5, "obj-522", "toggle", "int", 0, 5, "obj-352", "toggle", "int", 1, 5, "obj-74", "toggle", "int", 0, 5, "obj-519", "toggle", "int", 0, 5, "obj-349", "toggle", "int", 1, 5, "obj-72", "toggle", "int", 0, 5, "obj-516", "toggle", "int", 0, 5, "obj-346", "toggle", "int", 1, 5, "obj-513", "toggle", "int", 0, 5, "obj-343", "toggle", "int", 1, 5, "obj-510", "toggle", "int", 0, 5, "obj-340", "toggle", "int", 1, 5, "obj-50", "toggle", "int", 0, 5, "obj-507", "toggle", "int", 0, 5, "obj-337", "toggle", "int", 1, 5, "obj-48", "toggle", "int", 0, 5, "obj-504", "toggle", "int", 0, 5, "obj-334", "toggle", "int", 1, 5, "obj-46", "toggle", "int", 0, 5, "obj-499", "toggle", "int", 0, 5, "obj-44", "toggle", "int", 0, 5, "obj-331", "toggle", "int", 1, 5, "obj-42", "toggle", "int", 0, 5, "obj-496", "toggle", "int", 0, 5, "obj-328", "toggle", "int", 1, 5, "obj-40", "toggle", "int", 0, 5, "obj-493", "toggle", "int", 0, 5, "obj-325", "toggle", "int", 1, 5, "obj-490", "toggle", "int", 0, 5, "obj-322", "toggle", "int", 1, 5, "obj-487", "toggle", "int", 0, 5, "obj-21", "toggle", "int", 0, 5, "obj-319", "toggle", "int", 1, 5, "obj-484", "toggle", "int", 0, 5, "obj-19", "toggle", "int", 0, 5, "obj-316", "toggle", "int", 1, 5, "obj-15", "toggle", "int", 0, 5, "obj-481", "toggle", "int", 0, 5, "obj-313", "toggle", "int", 1, 5, "obj-17", "toggle", "int", 0, 5, "obj-478", "toggle", "int", 0, 5, "obj-310", "toggle", "int", 1, 5, "obj-13", "toggle", "int", 0, 5, "obj-475", "toggle", "int", 0, 5, "obj-11", "toggle", "int", 0, 5, "obj-307", "toggle", "int", 0, 5, "obj-472", "toggle", "int", 0, 5, "obj-9", "toggle", "int", 0, 5, "obj-304", "toggle", "int", 1, 5, "obj-7", "toggle", "int", 0, 5, "obj-466", "toggle", "int", 0, 5, "obj-298", "toggle", "int", 1, 5, "obj-295", "number", "int", 0, 5, "obj-287", "number", "int", 60, 5, "obj-284", "number", "int", 62, 5, "obj-281", "number", "int", 64, 5, "obj-278", "number", "int", 65, 5, "obj-275", "number", "int", 64, 5, "obj-272", "number", "int", 62, 5, "obj-452", "number", "int", 0, 5, "obj-269", "number", "int", 60, 5, "obj-449", "number", "int", 0, 5, "obj-266", "number", "int", 60, 5, "obj-446", "number", "int", 48, 5, "obj-262", "number", "int", 62, 5, "obj-443", "number", "int", 48, 5, "obj-249", "number", "int", 62, 5, "obj-440", "number", "int", 50, 5, "obj-243", "number", "int", 60, 5, "obj-434", "number", "int", 50, 5, "obj-240", "number", "int", 60, 5, "obj-431", "number", "int", 51, 5, "obj-232", "number", "int", 60, 5, "obj-428", "number", "int", 51, 5, "obj-218", "number", "int", 60, 5, "obj-425", "number", "int", 50, 5, "obj-194", "number", "int", 62, 5, "obj-422", "number", "int", 50, 5, "obj-191", "number", "int", 62, 5, "obj-419", "number", "int", 51, 5, "obj-188", "number", "int", 60, 5, "obj-416", "number", "int", 51, 5, "obj-185", "number", "int", 57, 5, "obj-413", "number", "int", 53, 5, "obj-182", "number", "int", 57, 5, "obj-410", "number", "int", 53, 5, "obj-179", "number", "int", 62, 5, "obj-407", "number", "int", 0, 5, "obj-165", "number", "int", 60, 5, "obj-404", "number", "int", 53, 5, "obj-164", "number", "int", 57, 5, "obj-568", "number", "int", 52, 5, "obj-398", "number", "int", 53, 5, "obj-565", "number", "int", 55, 5, "obj-395", "number", "int", 0, 5, "obj-562", "number", "int", 54, 5, "obj-122", "number", "int", 57, 5, "obj-392", "number", "int", 53, 5, "obj-559", "number", "int", 52, 5, "obj-389", "number", "int", 53, 5, "obj-121", "number", "int", 53, 5, "obj-556", "number", "int", 55, 5, "obj-386", "number", "int", 0, 5, "obj-120", "number", "int", 55, 5, "obj-553", "number", "int", 59, 5, "obj-383", "number", "int", 53, 5, "obj-119", "number", "int", 57, 5, "obj-550", "number", "int", 57, 5, "obj-380", "number", "int", 53, 5, "obj-118", "number", "int", 57, 5, "obj-547", "number", "int", 60, 5, "obj-377", "number", "int", 55, 5, "obj-117", "number", "int", 53, 5, "obj-374", "number", "int", 55, 5, "obj-541", "number", "int", 57, 5, "obj-371", "number", "int", 0, 5, "obj-538", "number", "int", 64, 5, "obj-368", "number", "int", 55, 5, "obj-535", "number", "int", 64, 5, "obj-98", "number", "int", 53, 5, "obj-365", "number", "int", 55, 5, "obj-532", "number", "int", 59, 5, "obj-362", "number", "int", 0, 5, "obj-97", "number", "int", 55, 5, "obj-529", "number", "int", 59, 5, "obj-359", "number", "int", 55, 5, "obj-96", "number", "int", 57, 5, "obj-526", "number", "int", 59, 5, "obj-356", "number", "int", 55, 5, "obj-95", "number", "int", 58, 5, "obj-523", "number", "int", 59, 5, "obj-353", "number", "int", 58, 5, "obj-94", "number", "int", 58, 5, "obj-520", "number", "int", 57, 5, "obj-350", "number", "int", 58, 5, "obj-93", "number", "int", 58, 5, "obj-517", "number", "int", 52, 5, "obj-347", "number", "int", 60, 5, "obj-92", "number", "int", 53, 5, "obj-514", "number", "int", 55, 5, "obj-344", "number", "int", 60, 5, "obj-511", "number", "int", 59, 5, "obj-65", "number", "int", 55, 5, "obj-341", "number", "int", 58, 5, "obj-508", "number", "int", 57, 5, "obj-338", "number", "int", 58, 5, "obj-64", "number", "int", 53, 5, "obj-505", "number", "int", 60, 5, "obj-335", "number", "int", 53, 5, "obj-63", "number", "int", 55, 5, "obj-502", "number", "int", 57, 5, "obj-332", "number", "int", 53, 5, "obj-62", "number", "int", 57, 5, "obj-497", "number", "int", 57, 5, "obj-329", "number", "int", 55, 5, "obj-61", "number", "int", 57, 5, "obj-494", "number", "int", 60, 5, "obj-326", "number", "int", 55, 5, "obj-60", "number", "int", 48, 5, "obj-491", "number", "int", 60, 5, "obj-323", "number", "int", 51, 5, "obj-38", "number", "int", 48, 5, "obj-488", "number", "int", 62, 5, "obj-320", "number", "int", 51, 5, "obj-37", "number", "int", 52, 5, "obj-485", "number", "int", 62, 5, "obj-317", "number", "int", 50, 5, "obj-482", "number", "int", 59, 5, "obj-36", "number", "int", 55, 5, "obj-314", "number", "int", 50, 5, "obj-479", "number", "int", 59, 5, "obj-35", "number", "int", 57, 5, "obj-311", "number", "int", 48, 5, "obj-476", "number", "int", 60, 5, "obj-34", "number", "int", 57, 5, "obj-308", "number", "int", 48, 5, "obj-473", "number", "int", 60, 5, "obj-33", "number", "int", 57, 5, "obj-305", "number", "int", 0, 5, "obj-470", "number", "int", 59, 5, "obj-32", "number", "int", 57, 5, "obj-302", "number", "int", 48, 5, "obj-469", "number", "int", 59, 5, "obj-31", "number", "int", 57, 5, "obj-301", "number", "int", 48 ]
-						}
-, 						{
-							"number" : 3,
-							"data" : [ 5, "obj-292", "toggle", "int", 0, 5, "obj-289", "toggle", "int", 0, 5, "obj-286", "toggle", "int", 0, 5, "obj-283", "toggle", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-277", "toggle", "int", 0, 5, "obj-274", "toggle", "int", 0, 5, "obj-454", "toggle", "int", 0, 5, "obj-271", "toggle", "int", 0, 5, "obj-451", "toggle", "int", 0, 5, "obj-268", "toggle", "int", 0, 5, "obj-448", "toggle", "int", 0, 5, "obj-265", "toggle", "int", 0, 5, "obj-445", "toggle", "int", 0, 5, "obj-261", "toggle", "int", 0, 5, "obj-442", "toggle", "int", 0, 5, "obj-247", "toggle", "int", 0, 5, "obj-436", "toggle", "int", 0, 5, "obj-242", "toggle", "int", 0, 5, "obj-433", "toggle", "int", 0, 5, "obj-239", "toggle", "int", 0, 5, "obj-430", "toggle", "int", 0, 5, "obj-231", "toggle", "int", 0, 5, "obj-427", "toggle", "int", 0, 5, "obj-196", "toggle", "int", 0, 5, "obj-424", "toggle", "int", 0, 5, "obj-193", "toggle", "int", 0, 5, "obj-421", "toggle", "int", 0, 5, "obj-190", "toggle", "int", 0, 5, "obj-418", "toggle", "int", 0, 5, "obj-187", "toggle", "int", 0, 5, "obj-415", "toggle", "int", 0, 5, "obj-184", "toggle", "int", 0, 5, "obj-412", "toggle", "int", 0, 5, "obj-181", "toggle", "int", 0, 5, "obj-409", "toggle", "int", 0, 5, "obj-177", "toggle", "int", 0, 5, "obj-406", "toggle", "int", 0, 5, "obj-109", "toggle", "int", 0, 5, "obj-570", "toggle", "int", 1, 5, "obj-400", "toggle", "int", 0, 5, "obj-567", "toggle", "int", 1, 5, "obj-397", "toggle", "int", 0, 5, "obj-110", "toggle", "int", 1, 5, "obj-564", "toggle", "int", 1, 5, "obj-394", "toggle", "int", 0, 5, "obj-561", "toggle", "int", 1, 5, "obj-108", "toggle", "int", 1, 5, "obj-391", "toggle", "int", 0, 5, "obj-558", "toggle", "int", 1, 5, "obj-106", "toggle", "int", 1, 5, "obj-388", "toggle", "int", 0, 5, "obj-555", "toggle", "int", 1, 5, "obj-385", "toggle", "int", 0, 5, "obj-104", "toggle", "int", 1, 5, "obj-552", "toggle", "int", 1, 5, "obj-382", "toggle", "int", 0, 5, "obj-102", "toggle", "int", 0, 5, "obj-549", "toggle", "int", 1, 5, "obj-379", "toggle", "int", 0, 5, "obj-100", "toggle", "int", 0, 5, "obj-546", "toggle", "int", 1, 5, "obj-376", "toggle", "int", 0, 5, "obj-543", "toggle", "int", 1, 5, "obj-373", "toggle", "int", 0, 5, "obj-540", "toggle", "int", 1, 5, "obj-370", "toggle", "int", 0, 5, "obj-537", "toggle", "int", 1, 5, "obj-84", "toggle", "int", 0, 5, "obj-367", "toggle", "int", 0, 5, "obj-534", "toggle", "int", 1, 5, "obj-82", "toggle", "int", 0, 5, "obj-364", "toggle", "int", 0, 5, "obj-531", "toggle", "int", 1, 5, "obj-80", "toggle", "int", 0, 5, "obj-361", "toggle", "int", 0, 5, "obj-528", "toggle", "int", 1, 5, "obj-78", "toggle", "int", 0, 5, "obj-358", "toggle", "int", 0, 5, "obj-525", "toggle", "int", 1, 5, "obj-355", "toggle", "int", 0, 5, "obj-76", "toggle", "int", 0, 5, "obj-522", "toggle", "int", 1, 5, "obj-352", "toggle", "int", 0, 5, "obj-74", "toggle", "int", 0, 5, "obj-519", "toggle", "int", 1, 5, "obj-349", "toggle", "int", 0, 5, "obj-72", "toggle", "int", 0, 5, "obj-516", "toggle", "int", 1, 5, "obj-346", "toggle", "int", 0, 5, "obj-513", "toggle", "int", 1, 5, "obj-343", "toggle", "int", 0, 5, "obj-510", "toggle", "int", 1, 5, "obj-340", "toggle", "int", 0, 5, "obj-50", "toggle", "int", 0, 5, "obj-507", "toggle", "int", 1, 5, "obj-337", "toggle", "int", 0, 5, "obj-48", "toggle", "int", 0, 5, "obj-504", "toggle", "int", 1, 5, "obj-334", "toggle", "int", 0, 5, "obj-46", "toggle", "int", 0, 5, "obj-499", "toggle", "int", 1, 5, "obj-44", "toggle", "int", 0, 5, "obj-331", "toggle", "int", 0, 5, "obj-42", "toggle", "int", 0, 5, "obj-496", "toggle", "int", 1, 5, "obj-328", "toggle", "int", 0, 5, "obj-40", "toggle", "int", 0, 5, "obj-493", "toggle", "int", 1, 5, "obj-325", "toggle", "int", 0, 5, "obj-490", "toggle", "int", 1, 5, "obj-322", "toggle", "int", 0, 5, "obj-487", "toggle", "int", 1, 5, "obj-21", "toggle", "int", 0, 5, "obj-319", "toggle", "int", 0, 5, "obj-484", "toggle", "int", 1, 5, "obj-19", "toggle", "int", 0, 5, "obj-316", "toggle", "int", 0, 5, "obj-15", "toggle", "int", 0, 5, "obj-481", "toggle", "int", 1, 5, "obj-313", "toggle", "int", 0, 5, "obj-17", "toggle", "int", 0, 5, "obj-478", "toggle", "int", 1, 5, "obj-310", "toggle", "int", 0, 5, "obj-13", "toggle", "int", 0, 5, "obj-475", "toggle", "int", 1, 5, "obj-11", "toggle", "int", 0, 5, "obj-307", "toggle", "int", 0, 5, "obj-472", "toggle", "int", 1, 5, "obj-9", "toggle", "int", 0, 5, "obj-304", "toggle", "int", 0, 5, "obj-7", "toggle", "int", 0, 5, "obj-466", "toggle", "int", 1, 5, "obj-298", "toggle", "int", 0, 5, "obj-295", "number", "int", 0, 5, "obj-287", "number", "int", 60, 5, "obj-284", "number", "int", 62, 5, "obj-281", "number", "int", 64, 5, "obj-278", "number", "int", 65, 5, "obj-275", "number", "int", 64, 5, "obj-272", "number", "int", 62, 5, "obj-452", "number", "int", 0, 5, "obj-269", "number", "int", 60, 5, "obj-449", "number", "int", 0, 5, "obj-266", "number", "int", 60, 5, "obj-446", "number", "int", 48, 5, "obj-262", "number", "int", 62, 5, "obj-443", "number", "int", 48, 5, "obj-249", "number", "int", 62, 5, "obj-440", "number", "int", 50, 5, "obj-243", "number", "int", 60, 5, "obj-434", "number", "int", 50, 5, "obj-240", "number", "int", 60, 5, "obj-431", "number", "int", 51, 5, "obj-232", "number", "int", 60, 5, "obj-428", "number", "int", 51, 5, "obj-218", "number", "int", 60, 5, "obj-425", "number", "int", 50, 5, "obj-194", "number", "int", 62, 5, "obj-422", "number", "int", 50, 5, "obj-191", "number", "int", 62, 5, "obj-419", "number", "int", 51, 5, "obj-188", "number", "int", 60, 5, "obj-416", "number", "int", 51, 5, "obj-185", "number", "int", 57, 5, "obj-413", "number", "int", 53, 5, "obj-182", "number", "int", 57, 5, "obj-410", "number", "int", 53, 5, "obj-179", "number", "int", 62, 5, "obj-407", "number", "int", 0, 5, "obj-165", "number", "int", 60, 5, "obj-404", "number", "int", 53, 5, "obj-164", "number", "int", 57, 5, "obj-568", "number", "int", 52, 5, "obj-398", "number", "int", 53, 5, "obj-565", "number", "int", 55, 5, "obj-395", "number", "int", 0, 5, "obj-562", "number", "int", 54, 5, "obj-122", "number", "int", 57, 5, "obj-392", "number", "int", 53, 5, "obj-559", "number", "int", 52, 5, "obj-389", "number", "int", 53, 5, "obj-121", "number", "int", 53, 5, "obj-556", "number", "int", 55, 5, "obj-386", "number", "int", 0, 5, "obj-120", "number", "int", 55, 5, "obj-553", "number", "int", 59, 5, "obj-383", "number", "int", 53, 5, "obj-119", "number", "int", 57, 5, "obj-550", "number", "int", 57, 5, "obj-380", "number", "int", 53, 5, "obj-118", "number", "int", 57, 5, "obj-547", "number", "int", 60, 5, "obj-377", "number", "int", 55, 5, "obj-117", "number", "int", 53, 5, "obj-374", "number", "int", 55, 5, "obj-541", "number", "int", 57, 5, "obj-371", "number", "int", 0, 5, "obj-538", "number", "int", 64, 5, "obj-368", "number", "int", 55, 5, "obj-535", "number", "int", 64, 5, "obj-98", "number", "int", 53, 5, "obj-365", "number", "int", 55, 5, "obj-532", "number", "int", 59, 5, "obj-362", "number", "int", 0, 5, "obj-97", "number", "int", 55, 5, "obj-529", "number", "int", 59, 5, "obj-359", "number", "int", 55, 5, "obj-96", "number", "int", 57, 5, "obj-526", "number", "int", 59, 5, "obj-356", "number", "int", 55, 5, "obj-95", "number", "int", 58, 5, "obj-523", "number", "int", 59, 5, "obj-353", "number", "int", 58, 5, "obj-94", "number", "int", 58, 5, "obj-520", "number", "int", 57, 5, "obj-350", "number", "int", 58, 5, "obj-93", "number", "int", 58, 5, "obj-517", "number", "int", 52, 5, "obj-347", "number", "int", 60, 5, "obj-92", "number", "int", 53, 5, "obj-514", "number", "int", 55, 5, "obj-344", "number", "int", 60, 5, "obj-511", "number", "int", 59, 5, "obj-65", "number", "int", 55, 5, "obj-341", "number", "int", 58, 5, "obj-508", "number", "int", 57, 5, "obj-338", "number", "int", 58, 5, "obj-64", "number", "int", 53, 5, "obj-505", "number", "int", 60, 5, "obj-335", "number", "int", 53, 5, "obj-63", "number", "int", 55, 5, "obj-502", "number", "int", 57, 5, "obj-332", "number", "int", 53, 5, "obj-62", "number", "int", 57, 5, "obj-497", "number", "int", 57, 5, "obj-329", "number", "int", 55, 5, "obj-61", "number", "int", 57, 5, "obj-494", "number", "int", 60, 5, "obj-326", "number", "int", 62, 5, "obj-60", "number", "int", 48, 5, "obj-491", "number", "int", 60, 5, "obj-323", "number", "int", 60, 5, "obj-38", "number", "int", 48, 5, "obj-488", "number", "int", 62, 5, "obj-320", "number", "int", 65, 5, "obj-37", "number", "int", 52, 5, "obj-485", "number", "int", 62, 5, "obj-317", "number", "int", 60, 5, "obj-482", "number", "int", 59, 5, "obj-36", "number", "int", 55, 5, "obj-314", "number", "int", 63, 5, "obj-479", "number", "int", 59, 5, "obj-35", "number", "int", 57, 5, "obj-311", "number", "int", 70, 5, "obj-476", "number", "int", 60, 5, "obj-34", "number", "int", 57, 5, "obj-308", "number", "int", 67, 5, "obj-473", "number", "int", 60, 5, "obj-33", "number", "int", 57, 5, "obj-305", "number", "int", 70, 5, "obj-470", "number", "int", 59, 5, "obj-32", "number", "int", 57, 5, "obj-302", "number", "int", 67, 5, "obj-469", "number", "int", 59, 5, "obj-31", "number", "int", 57, 5, "obj-301", "number", "int", 60 ]
-						}
- ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 5,
 					"id" : "obj-301",
 					"maxclass" : "number",
@@ -4173,45 +5389,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubblesize" : 50,
-					"id" : "obj-260",
-					"maxclass" : "preset",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 448.0, 1802.5, 166.0, 61.0 ],
-					"preset_data" : [ 						{
-							"number" : 1,
-							"data" : [ 5, "obj-30", "slider", "float", 0.983822047710419, 5, "obj-256", "number", "int", 2, 5, "obj-205", "umenu", "int", 3, 6, "obj-75", "gain~", "list", 73, 10.0, 5, "obj-142", "flonum", "float", 0.540000021457672, 5, "obj-144", "number", "int", 1263, 5, "obj-39", "slider", "float", 2.0, 5, "obj-253", "number", "int", 1, 5, "obj-211", "umenu", "int", 4, 6, "obj-77", "gain~", "list", 81, 10.0, 5, "obj-41", "slider", "float", 0.682002007961273, 5, "obj-250", "number", "int", 4, 5, "obj-217", "umenu", "int", 3, 6, "obj-79", "gain~", "list", 58, 10.0, 5, "obj-43", "slider", "float", 0.0, 5, "obj-248", "number", "int", 1, 5, "obj-226", "umenu", "int", 1, 6, "obj-81", "gain~", "list", 99, 10.0 ]
-						}
-, 						{
-							"number" : 2,
-							"data" : [ 5, "obj-30", "slider", "float", 0.0, 5, "obj-256", "number", "int", 2, 5, "obj-205", "umenu", "int", 3, 6, "obj-75", "gain~", "list", 72, 10.0, 5, "obj-142", "flonum", "float", 0.746999979019165, 5, "obj-144", "number", "int", 960, 5, "obj-39", "slider", "float", 0.0, 5, "obj-253", "number", "int", 1, 5, "obj-211", "umenu", "int", 3, 6, "obj-77", "gain~", "list", 113, 10.0, 5, "obj-41", "slider", "float", 0.682002007961273, 5, "obj-250", "number", "int", 2, 5, "obj-217", "umenu", "int", 1, 6, "obj-79", "gain~", "list", 103, 10.0, 5, "obj-43", "slider", "float", 0.0, 5, "obj-248", "number", "int", 4, 5, "obj-226", "umenu", "int", 4, 6, "obj-81", "gain~", "list", 77, 10.0 ]
-						}
-, 						{
-							"number" : 3,
-							"data" : [ 5, "obj-30", "slider", "float", 0.459049552679062, 5, "obj-256", "number", "int", 4, 5, "obj-205", "umenu", "int", 4, 6, "obj-75", "gain~", "list", 79, 10.0, 5, "obj-142", "flonum", "float", 0.540000021457672, 5, "obj-144", "number", "int", 1464, 5, "obj-39", "slider", "float", 0.0, 5, "obj-253", "number", "int", 3, 5, "obj-211", "umenu", "int", 3, 6, "obj-77", "gain~", "list", 84, 10.0, 5, "obj-41", "slider", "float", 1.39130437374115, 5, "obj-250", "number", "int", 2, 5, "obj-217", "umenu", "int", 2, 6, "obj-79", "gain~", "list", 19, 10.0, 5, "obj-43", "slider", "float", 0.0, 5, "obj-248", "number", "int", 4, 5, "obj-226", "umenu", "int", 1, 6, "obj-81", "gain~", "list", 71, 10.0 ]
-						}
- ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-256",
-					"maxclass" : "number",
-					"maximum" : 4,
-					"minimum" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1250.5, 2069.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-257",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -4231,20 +5408,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1191.5, 2069.0, 39.0, 22.0 ],
 					"text" : "r note"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-253",
-					"maxclass" : "number",
-					"maximum" : 4,
-					"minimum" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 914.0, 2056.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -4274,20 +5437,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-250",
-					"maxclass" : "number",
-					"maximum" : 4,
-					"minimum" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 616.0, 2056.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-251",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -4307,20 +5456,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 557.0, 2056.0, 39.0, 22.0 ],
 					"text" : "r note"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-248",
-					"maxclass" : "number",
-					"maximum" : 4,
-					"minimum" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 305.0, 2023.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -4393,19 +5528,6 @@
 					"outlettype" : [ "signal", "bang" ],
 					"patching_rect" : [ 573.0, 2572.0, 34.0, 22.0 ],
 					"text" : "line~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-230",
-					"maxclass" : "gain~",
-					"multichannelvariant" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 988.0, 1483.0, 22.0, 140.0 ]
 				}
 
 			}
@@ -4504,7 +5626,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1101.0, 1693.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1080.5, 1701.5, 150.0, 20.0 ],
 					"text" : "resonance"
 				}
 
@@ -4515,75 +5637,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1028.0, 1635.0, 150.0, 20.0 ],
+					"patching_rect" : [ 855.0, 1602.0, 150.0, 20.0 ],
 					"text" : "cutoff frequency"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "spectroscope~",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1135.0, 1532.0, 300.0, 100.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"id" : "obj-30",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1259.0, 2211.0, 102.0, 19.0 ],
-					"size" : 2.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"id" : "obj-39",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 932.0, 2211.0, 102.0, 19.0 ],
-					"size" : 2.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"id" : "obj-41",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 622.0, 2211.0, 102.0, 19.0 ],
-					"size" : 2.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"id" : "obj-43",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 362.0, 2201.0, 102.0, 19.0 ],
-					"size" : 2.0
 				}
 
 			}
@@ -4637,20 +5692,6 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 153.84615384615384, 0.842857142857143, 0, 615.384615384615358, 0.242857142857143, 0, 1000.0, 0.071428571428571, 0 ],
-					"classic_curve" : 1,
-					"id" : "obj-51",
-					"maxclass" : "function",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "float", "", "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1212.0, 2447.0, 116.0, 95.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -4663,20 +5704,6 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 163.461538461538453, 0.814285714285714, 0, 528.846153846153811, 0.4, 0, 1000.0, 0.085714285714286, 0 ],
-					"classic_curve" : 1,
-					"id" : "obj-52",
-					"maxclass" : "function",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "float", "", "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 890.0, 2451.0, 116.0, 95.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -4684,20 +5711,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 577.0, 2399.0, 91.0, 22.0 ],
 					"text" : "receive velocity"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 125.0, 0.785714285714286, 0, 730.769230769230717, 0.728571428571429, 0, 980.769230769230717, 0.0, 0 ],
-					"classic_curve" : 1,
-					"id" : "obj-66",
-					"maxclass" : "function",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "float", "", "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 577.0, 2443.0, 116.0, 95.0 ]
 				}
 
 			}
@@ -4727,149 +5740,12 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.028571428571429, 0, 211.538461538461547, 0.757142857142857, 0, 1000.0, 0.0, 0 ],
-					"classic_curve" : 1,
-					"id" : "obj-71",
-					"maxclass" : "function",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "float", "", "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 272.0, 2451.0, 116.0, 95.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-75",
-					"maxclass" : "gain~",
-					"multichannelvariant" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1105.0, 2461.0, 22.0, 140.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "gain~",
-					"multichannelvariant" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 769.0, 2473.0, 22.0, 140.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-79",
-					"maxclass" : "gain~",
-					"multichannelvariant" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 436.0, 2477.0, 22.0, 140.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-81",
-					"maxclass" : "gain~",
-					"multichannelvariant" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 112.0, 2543.0, 22.0, 140.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-134",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 283.0, 1664.0, 61.0, 22.0 ],
 					"text" : "send note"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"automatic" : 1,
-					"id" : "obj-136",
-					"maxclass" : "scope~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1281.0, 1670.0, 130.0, 130.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
-					"fgcolor" : [ 1.0, 0.603922, 0.0, 1.0 ],
-					"id" : "obj-138",
-					"interval" : 50,
-					"logfreq" : 1,
-					"markercolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
-					"maxclass" : "spectroscope~",
-					"monochrome" : 0,
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1135.0, 1781.0, 120.0, 80.0 ],
-					"sonohicolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"sonolocolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
-					"sonomedcolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
-					"sonomedhicolor" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
-					"sonomedlocolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
-					"sonomonofgcolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-140",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 979.0, 1799.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-142",
-					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1044.0, 1686.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-144",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1021.0, 1659.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -5039,19 +5915,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-205",
-					"items" : [ "none", ",", "sine", ",", "triangle", ",", "saw", "tooth", ",", "rectangle" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1121.0, 2209.0, 100.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-206",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -5107,19 +5970,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 801.0, 2346.0, 161.0, 22.0 ],
 					"text" : "selector~ 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-211",
-					"items" : [ "none", ",", "sine", ",", "triangle", ",", "saw", "tooth", ",", "rectangle" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 801.0, 2209.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -5185,26 +6035,15 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-217",
-					"items" : [ "none", ",", "sine", ",", "triangle", ",", "saw", "tooth", ",", "rectangle" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 2209.0, 100.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-219",
 					"maxclass" : "kslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 261.0, 1483.0, 560.0, 83.0 ]
+					"patching_rect" : [ 261.0, 1483.0, 560.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 416.0, 46.5, 1232.0, 174.0 ]
 				}
 
 			}
@@ -5282,19 +6121,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-226",
-					"items" : [ "none", ",", "sine", ",", "triangle", ",", "saw", "tooth", ",", "rectangle" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 176.0, 2209.0, 100.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-178",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5337,18 +6163,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 72.0, 524.0, 69.0, 22.0 ],
 					"text" : "qmetro 200"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-126",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 72.0, 486.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -6395,18 +7209,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 84.0, 79.0, 69.0, 22.0 ],
 					"text" : "qmetro 200"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 84.0, 24.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -9920,7 +10722,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-144", 0 ],
-					"order" : 5,
+					"order" : 7,
 					"source" : [ "obj-260", 0 ]
 				}
 
@@ -9976,7 +10778,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-253", 0 ],
-					"order" : 7,
+					"order" : 6,
 					"source" : [ "obj-260", 0 ]
 				}
 
@@ -10000,7 +10802,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"order" : 6,
+					"order" : 5,
 					"source" : [ "obj-260", 0 ]
 				}
 
@@ -12940,8 +13742,50 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-250", 0 ],
+					"source" : [ "obj-601", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-248", 0 ],
+					"source" : [ "obj-602", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-253", 0 ],
+					"source" : [ "obj-603", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-256", 0 ],
+					"source" : [ "obj-604", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-227", 0 ],
 					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-144", 0 ],
+					"source" : [ "obj-613", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-142", 0 ],
+					"source" : [ "obj-614", 0 ]
 				}
 
 			}
@@ -12968,8 +13812,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-645", 0 ],
+					"source" : [ "obj-647", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-227", 0 ],
 					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-652", 0 ],
+					"source" : [ "obj-651", 0 ]
 				}
 
 			}
@@ -13205,8 +14063,49 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"dependency_cache" : [ 			{
+				"name" : "pikachu.png",
+				"bootpath" : "~/Documents/Interactive Sound Spring 24/Tessa_Hammond_max/tessa-max-spring24",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pokeball.png",
+				"bootpath" : "~/Documents/Interactive Sound Spring 24/Tessa_Hammond_max/tessa-max-spring24",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "rnbodefault",
+				"default" : 				{
+					"accentcolor" : [ 0.343034118413925, 0.506230533123016, 0.86220508813858, 1.0 ],
+					"bgcolor" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
+						"color1" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
+						"color2" : [ 0.263682, 0.004541, 0.038797, 1.0 ],
+						"proportion" : 0.39,
+						"type" : "color"
+					}
+,
+					"color" : [ 0.929412, 0.929412, 0.352941, 1.0 ],
+					"elementcolor" : [ 0.357540726661682, 0.515565991401672, 0.861786782741547, 1.0 ],
+					"fontname" : [ "Lato" ],
+					"fontsize" : [ 12.0 ],
+					"stripecolor" : [ 0.258338063955307, 0.352425158023834, 0.511919498443604, 1.0 ],
+					"textcolor_inverse" : [ 0.968627, 0.968627, 0.968627, 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
