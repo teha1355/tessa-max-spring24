@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
+		"rect" : [ 1258.0, 84.0, 1269.0, 1273.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -168,7 +168,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 66.0, 680.0, 558.0, 223.0 ],
+					"patching_rect" : [ 76.0, 693.0, 558.0, 223.0 ],
 					"varname" : "bp.Classroom Filter",
 					"viewvisibility" : 1
 				}
@@ -258,7 +258,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 430.0, 538.5, 160.0, 116.0 ],
+					"patching_rect" : [ 433.5, 560.5, 160.0, 116.0 ],
 					"varname" : "bp.LFO3",
 					"viewvisibility" : 1
 				}
@@ -281,7 +281,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 240.0, 538.5, 170.0, 116.0 ],
+					"patching_rect" : [ 239.5, 547.0, 170.0, 116.0 ],
 					"varname" : "bp.LFO2",
 					"viewvisibility" : 1
 				}
@@ -304,7 +304,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 78.0, 538.5, 137.0, 116.0 ],
+					"patching_rect" : [ 88.0, 560.5, 137.0, 116.0 ],
 					"varname" : "bp.LFO",
 					"viewvisibility" : 1
 				}
@@ -352,7 +352,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 930.0, 1190.0, 186.0, 33.0 ],
+					"patching_rect" : [ 930.0, 1190.0, 187.0, 33.0 ],
 					"text" : "beap- level- VCA (voltage control amplitude)"
 				}
 
@@ -374,7 +374,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 814.0, 1104.0, 114.0, 120.0 ],
+					"patching_rect" : [ 814.0, 1104.0, 113.0, 116.0 ],
 					"varname" : "bp.VCA",
 					"viewvisibility" : 1
 				}
@@ -510,7 +510,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 94.0, 182.0, 426.0, 132.0 ],
+					"patching_rect" : [ 138.0, 172.0, 314.0, 116.0 ],
 					"varname" : "bp.Oscillator",
 					"viewvisibility" : 1
 				}
@@ -520,7 +520,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -528,7 +528,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
