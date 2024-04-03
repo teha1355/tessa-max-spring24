@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 76.0, 1469.0, 707.0 ],
+		"rect" : [ 36.0, 84.0, 1470.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,115 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 642.0, 44.0, 150.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 746.0, 26.0, 51.0, 39.0 ],
+					"text" : "Object"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-37",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 967.0, 240.0, 150.0, 37.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 913.0, 235.5, 122.0, 51.0 ],
+					"text" : "Right x and bottom y coordinates"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-30",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 813.0, 183.0, 150.0, 37.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 913.0, 95.5, 94.0, 51.0 ],
+					"text" : "Left x and top y coordinates"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-27",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 882.0, 1010.0, 377.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 741.0, 571.0, 291.0, 96.0 ],
+					"text" : "Left and right X coordinate changes LFO frequency\nTop y coordinate changes the offset\nBottom y coordinate changes the fatness"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 488.0, 21.0, 150.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 466.0, 8.0, 150.0, 24.0 ],
+					"text" : "Click the color to track"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 34.0, 176.0, 150.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 28.0, 163.0, 80.0, 79.0 ],
+					"text" : "Click open to start video and close to stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 38.0, 19.0, 150.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 8.0, 46.0, 39.0 ],
+					"text" : "On/Off"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -57,7 +166,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 752.0, 1010.0, 100.0, 100.0 ]
+					"patching_rect" : [ 746.0, 1010.0, 100.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 809.0, 211.0, 100.0, 100.0 ]
 				}
 
 			}
@@ -118,7 +229,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 478.0, 1010.0, 100.0, 100.0 ]
+					"patching_rect" : [ 478.0, 1010.0, 100.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 809.0, 71.0, 100.0, 100.0 ]
 				}
 
 			}
@@ -350,7 +463,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 700.0, 510.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "wraps color pixels in rectangle"
 				}
 
@@ -374,7 +486,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 686.0, 404.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "turn color values to coordinates"
 				}
 
@@ -555,6 +666,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 582.0, 86.0, 320.0, 240.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 475.0, 71.0, 320.0, 240.0 ],
 					"sync" : 1
 				}
 
@@ -566,7 +679,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.5, 443.5, 321.0, 240.0 ]
+					"patching_rect" : [ 40.0, 443.5, 321.0, 240.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 143.0, 8.0, 321.0, 240.0 ]
 				}
 
 			}
@@ -578,6 +693,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 40.5, 443.5, 320.0, 240.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 144.0, 8.0, 320.0, 240.0 ],
 					"sync" : 1
 				}
 
@@ -958,6 +1075,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.0, 142.0, 37.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 71.0, 130.0, 37.0, 22.0 ],
 					"text" : "close"
 				}
 
@@ -970,6 +1089,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 138.0, 142.0, 35.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 28.0, 130.0, 39.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -1006,7 +1127,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 58.0, 24.0, 24.0 ]
+					"patching_rect" : [ 28.0, 58.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 28.0, 48.0, 80.0, 80.0 ]
 				}
 
 			}
@@ -1019,6 +1142,8 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 162.0, 720.0, 166.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 144.0, 253.0, 320.0, 58.0 ],
 					"saturation" : 0.831372549019608
 				}
 
@@ -1157,6 +1282,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 1448.0, 423.0, 137.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 447.0, 561.0, 137.0, 116.0 ],
 					"varname" : "bp.LFO[1]",
 					"viewvisibility" : 1
 				}
@@ -1180,6 +1307,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 1289.0, 423.0, 137.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 303.0, 561.0, 137.0, 116.0 ],
 					"varname" : "bp.LFO",
 					"viewvisibility" : 1
 				}
@@ -1203,6 +1332,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 997.0, 610.5, 558.0, 223.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 746.0, 320.0, 559.0, 232.0 ],
 					"varname" : "bp.Classroom Filter",
 					"viewvisibility" : 1
 				}
@@ -1226,6 +1357,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 976.0, 423.0, 280.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 561.0, 280.0, 116.0 ],
 					"varname" : "bp.Cloud",
 					"viewvisibility" : 1
 				}
@@ -1248,6 +1381,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1416.0, 1190.5, 148.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 588.0, 561.0, 148.0, 116.0 ],
 					"varname" : "bp.Stereo",
 					"viewvisibility" : 1
 				}
@@ -1294,6 +1429,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1833.0, 428.0, 267.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 561.0, 267.0, 116.0 ],
 					"varname" : "bp.Graphic ADSR",
 					"viewvisibility" : 1
 				}
@@ -1317,6 +1454,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 968.0, 151.0, 726.0, 232.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 320.0, 726.0, 232.0 ],
 					"varname" : "bp.Sequencer",
 					"viewvisibility" : 1
 				}
