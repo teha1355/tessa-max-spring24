@@ -40,13 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "## VIZZIE video projector interface ##",
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "vz.projectr.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 99.0, 900.0, 168.0, 108.0 ],
+					"prototypename" : "pixl",
+					"varname" : "projectr",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-57",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 642.0, 44.0, 150.0, 39.0 ],
+					"patching_rect" : [ 301.0, 9.0, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 746.0, 26.0, 51.0, 39.0 ],
 					"text" : "Object"
@@ -61,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 967.0, 240.0, 150.0, 37.0 ],
+					"patching_rect" : [ 280.0, -1.0, 150.0, 37.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 913.0, 235.5, 122.0, 51.0 ],
@@ -77,7 +101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 813.0, 183.0, 150.0, 37.0 ],
+					"patching_rect" : [ 274.0, 18.5, 150.0, 37.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 913.0, 95.5, 94.0, 51.0 ],
@@ -108,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.0, 21.0, 150.0, 24.0 ],
+					"patching_rect" : [ 308.0, 25.0, 150.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 466.0, 8.0, 150.0, 24.0 ],
 					"text" : "Click the color to track"
@@ -124,10 +148,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 176.0, 150.0, 52.0 ],
+					"patching_rect" : [ 261.0, 7.0, 150.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 28.0, 163.0, 80.0, 79.0 ],
+					"presentation_rect" : [ 28.0, 163.0, 83.0, 79.0 ],
 					"text" : "Click open to start video and close to stop"
 				}
 
@@ -140,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 19.0, 150.0, 39.0 ],
+					"patching_rect" : [ 251.0, 13.5, 150.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 8.0, 46.0, 39.0 ],
 					"text" : "On/Off"
@@ -2053,6 +2077,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"order" : 0,
+					"source" : [ "obj-186", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 1,
 					"source" : [ "obj-186", 0 ]
 				}
 
@@ -2491,12 +2524,15 @@
 			"obj-192::obj-20" : [ "Frequency", "Freq", 0 ],
 			"obj-193::obj-12" : [ "Mute[3]", "Mute", 0 ],
 			"obj-193::obj-20" : [ "Frequency[1]", "Freq", 0 ],
+			"obj-9::obj-12" : [ "Fullscreen", "Fullscreen", 0 ],
+			"obj-9::obj-16" : [ "Toggle display", "Toggle display", 0 ],
+			"obj-9::obj-1::obj-23" : [ "gswitch2[2]", "gswitch2", 0 ],
+			"obj-9::obj-2" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
+			"obj-9::obj-3" : [ "toggle", "toggle", 0 ],
+			"obj-9::obj-41" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
+			"obj-9::obj-50" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
+			"obj-9::obj-6" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
 
 			}
 ,
@@ -2587,9 +2623,57 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "data-handler.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "swingCalc.js",
 				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "video-handler.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-datatexconvert.js",
+				"bootpath" : "C74:/packages/vizzie/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-global.js",
+				"bootpath" : "C74:/packages/vizzie/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.projectr.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-context.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-disable.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-outputdim.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
