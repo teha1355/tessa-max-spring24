@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 36.0, 84.0, 1470.0, 697.0 ],
+		"rect" : [ 42.0, 85.0, 1452.0, 689.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1477,7 +1477,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 968.0, 151.0, 726.0, 232.0 ],
+					"patching_rect" : [ 967.0, 150.0, 726.0, 232.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 320.0, 726.0, 232.0 ],
 					"varname" : "bp.Sequencer",
@@ -1649,8 +1649,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 536.0, 1238.0, 111.0, 22.0 ],
-					"text" : "scale 0 127 -64. 64"
+					"patching_rect" : [ 536.0, 1238.0, 114.0, 22.0 ],
+					"text" : "scale 0 127 -64. 64."
 				}
 
 			}
