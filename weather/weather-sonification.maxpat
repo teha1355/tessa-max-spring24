@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 2073.0, 1282.0 ],
+		"rect" : [ 34.0, 77.0, 2493.0, 1282.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 64.0, 728.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 64.25, 727.0, 173.5, 20.0 ],
+					"text" : "w a s d z q to vieq wave form"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 18.0,
 					"id" : "obj-103",
@@ -179,7 +193,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bubble_bgcolor" : [ 1.0, 0.607843137254902, 0.972549019607843, 1.0 ],
 					"bubbleside" : 3,
 					"fontsize" : 20.0,
@@ -551,7 +564,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.0, 209.0, 63.0, 49.0 ],
-					"text" : "dictionary u633003237"
+					"text" : "dictionary u977000526"
 				}
 
 			}
@@ -588,7 +601,7 @@
 					"color" : [ 1.0, 0.16078431372549, 0.584313725490196, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/Total/Documents/Interactive Sound Spring 24/Tessa_Hammond_max/tessa-max-spring24/weather/TWICE _FANCY_ MV.mp3",
+								"absolutepath" : "TWICE _FANCY_ MV.mp3",
 								"filename" : "TWICE _FANCY_ MV.mp3",
 								"filekind" : "audiofile",
 								"id" : "u058002378",
@@ -1189,7 +1202,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 189.0, 1119.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 512.0, 288.0, 210.0 ],
+					"presentation_rect" : [ 7.0, 512.0, 288.0, 266.0 ],
 					"proportion" : 0.5
 				}
 
