@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 2493.0, 1282.0 ],
+		"rect" : [ 52.0, 84.0, 1448.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 560.0, 328.0, 155.0, 67.0 ],
+					"patching_rect" : [ 767.5, 114.666670083999634, 155.0, 67.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.0, 287.0, 336.0, 27.0 ],
 					"text" : "Volume adjusted by the air quality index"
@@ -91,7 +91,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 545.0, 313.0, 155.0, 47.0 ],
+					"patching_rect" : [ 767.5, 157.0, 155.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.0, 287.0, 189.0, 27.0 ],
 					"text" : "Turn on to hear music"
@@ -106,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.0, 298.0, 155.0, 47.0 ],
+					"patching_rect" : [ 763.0, 85.333335876464844, 155.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 518.0, 100.0, 247.0, 27.0 ],
 					"text" : "Behold! The air quality index"
@@ -429,7 +429,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 442.0, 222.0, 22.0 ],
-					"text" : "data::iaqi::o3::v 14"
+					"text" : "data::iaqi::o3::v 35.4"
 				}
 
 			}
@@ -564,7 +564,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.0, 209.0, 63.0, 49.0 ],
-					"text" : "dictionary u977000526"
+					"text" : "dictionary u629000554"
 				}
 
 			}
@@ -717,7 +717,7 @@
 						}
 ,
 						"classnamespace" : "jit.gen",
-						"rect" : [ 886.0, 549.0, 600.0, 450.0 ],
+						"rect" : [ 738.0, 254.0, 600.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -752,8 +752,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 375.0, 254.0, 30.0, 22.0 ],
-									"text" : "* 10"
+									"patching_rect" : [ 375.0, 254.0, 23.0, 22.0 ],
+									"text" : "* 8"
 								}
 
 							}
